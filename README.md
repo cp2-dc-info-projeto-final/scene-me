@@ -1,11 +1,11 @@
-# Nome do Meu Projeto
+# SceneMe
 
 Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colégio Pedro II - Campus Duque de Caxias
 
 **Integrantes:**
- - Fulano
- - Beltrano
- - Ciclano
+ - Felipe Marques Brandão
+ - Rafael
+ - Carlos Willian
 
  ## Descrição do Projeto
 
