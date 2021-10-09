@@ -1,21 +1,67 @@
-# Documento de Requisitos
-
 ## Requisitos Funcionais
 
-### RF 01
+RF 01 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit nulla vel diam vehicula, eu porttitor nulla aliquam.
+O sistema deverá ser capaz de armazenar de cada usuário nome, Nick, e-mail e data de nascimento.
 
-### RF 02
+RF 02
 
-Nullam laoreet, mauris ac tempor vulputate, orci metus aliquet augue, at accumsan odio mi eu sapien. Aliquam tincidunt metus ut aliquet vehicula. Aliquam vitae arcu sed lacus fermentum sagittis.
+O sistema deverá dar ao usuário a possibilidade de escolher 1 entre 5 imagens pré-definidas de perfil.
+
+RF 02
+
+O sistema deverá se capaz de armazenar os gostos principais de filmes, séries e atores favoritos do usuário de acordo com um pequeno questionário no momento de êxito do cadastro.
+
+RF 03
+
+O sistema deverá ser capaz de armazenar os dados de todas as postagens e comentários feitos pelos usuários.
+
+RF 04 
+
+O sistema deverá ser capaz de cada usuário poder acessar o perfil de outro usuário.
+
+RF 05 
+
+O sistema deverá ser capaz de gerar quizes sobre diversos fatos e curiosidades sobre o universo do cinema.
+
+RF 06 
+
+O sistema deverá ser capaz de dar ao usuário a liberdade para colocar uma pequena biografia no seu perfil.
+
+RF 07 
+
+O sistema deverá ser capaz de registrar números de curtidas para cada postagem.
+
+RF 08 
+
+O sistema deverá ser capaz de registrar comentários para cada postagem feita no site.
+
+RF 09
+
+O sistema deverá ser capaz de dar a possibilidade ao usuário escolher 1 entre 5 imagens pré-definidas de banner para o perfil.
+
+RF 10 
+
+O sistema deverá ser capaz de armazenar um registro de denúncia.
 
 ## Requisitos Não-Funcionais
 
-### RNF 01
+RFN 01  
 
-Nulla facilisi. Etiam tempus dolor et odio tincidunt fermentum. Donec pharetra nulla eu euismod maximus. Maecenas eu mauris tincidunt, pulvinar tellus sed, blandit eros.
+O sistema deverá ser desenvolvido como uma plataforma web.
 
-### RNF 02
+RFN 02
 
-Nam id enim ut quam faucibus scelerisque at non diam. Morbi eget eleifend lectus, quis fringilla elit. Morbi iaculis, elit vel accumsan hendrerit, ipsum purus varius lacus, eget facilisis massa mauris ac ipsum.
+O sistema deverá utilizar o protocolo de segurança HTTPS.
+
+RFN 03 
+
+O sistema deverá armazenar dados como cadastro, postagens, comentários e quantidade de curtidas em um banco de dados PHP.
+
+RFN 04 
+
+O sistema deverá se desenvolvido na linguagem de programação HTML5  e javascript.
+
+RFN 05 
+
+O sistema deverá utilizar padrões internacionais de acessibilidade.
