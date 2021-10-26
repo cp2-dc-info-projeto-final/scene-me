@@ -29,28 +29,28 @@
       <body background="https://coolwallpapers.me/picsup/6052536-wallpapers-frames-cinema-samples-film-filming-creative-minimalism.jpg" id="bruno">
             <div class="blink"></div>
             <div style="background-image:url(pimpinela.jpg;);"></div>
-            <form action="recebeDadosImput.php">
-
-                <div class="col-md-3 offset-md-5 align-items-center">  
-                    <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif " ><b style="color:#ffc107;">Scene-Me 🎬 </b> </h1>  
+           <form action="recebeDadosImput.php">
+                          
+                <div class="col-md-4 offset-md-5 align-items-center">  
+                    <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif " ><b style="color:#ffc107;">Scene Me   🎬 </b> </h1>  
                 </div> 
                      <div class="col-md-4 offset-md-4  align-items-center">
                         <label for="nome" class="form-label"></label>
-                        <input type="text" class="form-control justify-content-center" id="nome" placeholder="nome">
+                        <input type="text" class="form-control justify-content-center" id="nome" placeholder="nome                                                                             📛 ">
                     </div>
                     <div class="col-md-4 offset-md-4 align-items-center">
-                        <label for="email" class="form-label"></label>
-                        <input type="email" class="form-control justify-content-center" id="email" placeholder="email">
+                        <label for="email" class="form-label"></label> 
+                        <input type="email" class="form-control justify-content-center" id="email" placeholder="email                                                                              📧">
                     </div>
                     <div class="col-4 offset-md-4 align-items-center" style="color: rgb(0, 0, 0);">
-                        <label for="senha" class="form-label"></label>
-                        <input type="password" class="form-control justify-content-center " id="senha" placeholder="senha" >
+                        <label for="senha" class="form-label justify-content-center"><i class="bi bi-lock"></i></label> 
+                        <input type="password" class="form-control justify-content-center " id="senha" placeholder="senha                                                                             🔒" >
                     </div>
                     <div class="col-4 offset-md-4 align-items-center">
                         <label for="dataNasc" class="form-label justify-content-center"><i class="bi bi-calendar-date"></i></label>
                         <input type="date" class="form-control justify-content-center" id="dataNasc"  >
                     </div>
-                    <div class="col-5 offset-md-4 align-items-center mt-4" >
+                    <div class="col-4 offset-md-4 align-items-center mt-4" >
                         <button type="submit" class="btn btn-warning">Cadastrar</button>                     
                     </div>
 
