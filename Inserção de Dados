@@ -1,0 +1,21 @@
+<?php
+
+include("conecta.php");
+
+$nome=$_POST['nome'];
+$email=$_POST['email'];
+$senha=$_POST['senha'];
+$dataNasc=$_POST['dataNasc'];
+
+$sql="INSERT INTO userdados(nome,email,senha,dataNasc) VALUES ('$nome','$email','$senha','$dataNasc')";
+
+if(mysqli_query($conexao,$sql)){
+
+    echo "Not work :(";
+}
+else{
+
+echo"This Work!".mysqli_connect_error($conexao);
+}
+mysqli_close($conexao);
+?>
