@@ -24,4 +24,4 @@ Nosso projeto...
 
 **Modelagem do Banco de Dados**
 
-![Diagrama de Banco de Dados](diagramaBD.png)
+![Diagrama de Banco de Dados](diagramBD.png)
