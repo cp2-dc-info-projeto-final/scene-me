@@ -1,0 +1,21 @@
+<?php
+
+include "conecta.php";
+$email = $_POST["email"];
+$senha = $_POST["senha"];
+
+
+$login = mysqli_query($conexao,"SELECT senha, email FROM userdados WHERE email ='$email' AND senha = '$senha'");
+$res = mysqli_fetch_row($login);
+
+   if($res)
+   {
+     header('location: paginaInicial.php');
+   }
+
+   else
+   {
+
+    header('location: login.php');
+   }
+   ?>
