@@ -1,0 +1,7 @@
+<html>
+    <body>
+        <?php  
+            include "autentica.php"; 
+        ?>
+    </body>
+</html>
