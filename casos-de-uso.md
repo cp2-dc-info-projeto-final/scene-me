@@ -134,7 +134,7 @@ Customizar Perfil.
 3. O usuário clica no botão “editar”.
 4. O usuário muda email/nome/senha.
 5. O usuário clica no botão “alterar”.
-6. O sistema informa o usuário que o email/nome/senha são invalidos.
+6. O sistema informa o usuário que o email/nome/senha é invalido.
 7. O usuário corrige o email/nome/senha.
 8. O usuário clica no botão “alterar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
