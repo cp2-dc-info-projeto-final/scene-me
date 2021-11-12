@@ -5,6 +5,8 @@
  - [CDU 01](#CDU-01): Cadastro de Usuário.
  - [CDU 02](#CDU-02): Login de Usuário.
  - [CDU 03](#CDU-03): Criar Comentários.
+ - [CDU 04](#CDU-04): Dar like em posts.
+ - [CDU 05](#CDU-05): Customizar Perfil.
 
 
 ## Lista dos Atores
@@ -90,3 +92,49 @@ Criar comentários.
 2. O usuário cria um comentário abaixo do post.
 3. O usuário decide não criar um comentário e clica no botão “descartar comentário”.
 4. O sistema apaga o esboço da mensagem.
+
+### CDU 04
+
+Dar likes em posts.
+
+**Fluxo Principal**
+
+1. O sistema apresenta um post na página principal.
+2. O usuário decide adicionar uma reação ao post.
+3. O usuário clica no botão “like”.
+4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta um post na página principal.
+2. O usuário decide adicionar uma reação ao post.
+3. O usuário clica no botão “like”.
+4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+5. O usuário muda de idea e dicide remover a sua reação ao post.
+6. O usuário clica no botão “like”.
+7. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+
+### CDU 05
+
+Customizar Perfil.
+
+**Fluxo Principal**
+
+1. O sistema apresenta a página de perfil do usuário.
+2. O usuário decide alterar suas informações pessoais.
+3. O usuário clica no botão “editar”.
+4. O usuário muda email/nome/senha.
+5. O usuário clica no botão “alterarr”.
+6. O sistema altera as informações do usuário e o informa que a operação foi realizada.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta a página de perfil do usuário.
+2. O usuário decide alterar suas informações pessoais.
+3. O usuário clica no botão “editar”.
+4. O usuário muda email/nome/senha.
+5. O usuário clica no botão “alterar”.
+6. O sistema informa o usuário que o email/nome/senha são invalidos.
+7. O usuário corrige o email/nome/senha.
+8. O usuário clica no botão “alterar”.
+9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
