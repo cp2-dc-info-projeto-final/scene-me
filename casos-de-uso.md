@@ -14,7 +14,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](PNGs/DiagramaCU.drawio)
+![Diagrama de Casos de Uso](PNGs/diagramaCU1.png)
 
 ## Descrição dos Casos de Uso
 
