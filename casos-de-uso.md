@@ -27,7 +27,7 @@ Cadastro de usuário
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
 2. O usuário insere nick, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
-4. O sistema armazena o usuário e  o informa que a operação foi realizada.
+4. O sistema armazena o usuário e o informa que a operação foi realizada.
 5. O sistema retorna o usuário para CDU2.
 
 **Fluxo Alternativo A**
@@ -55,7 +55,7 @@ Login de Usuário.
 1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
 2. O usuário insere o email e a senha.
 3. O usuário clica no botão “entrar”.
-4. O sistema leva o usuário para XXXX.
+4. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para XXXX.
 
 **Fluxo Alternativo A**
 
