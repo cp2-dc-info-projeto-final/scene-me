@@ -28,23 +28,29 @@ Cadastro de usuário
 2. O usuário insere nick, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
 4. O sistema armazena o usuário e o informa que a operação foi realizada.
-5. O sistema retorna o usuário para CDU2.
+5. O sistema retorna o usuário para a página de login.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
 2. O usuário insere nick, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
-4. O sistema informa que já existe um usuário com o e-mail fornecido e retorna
-ao fluxo principal.
+4. O sistema informa que já existe um usuário com o e-mail fornecido.
+5. O usuário usa outro email na criação da conta.
+6. O usuário clica no botão “cadastrar”.
+7. O sistema armazena o usuário e o informa que a operação foi realizada.
+8. O sistema retorna o usuário para a página de login.
 
 **Fluxo Alternativo B**
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
 2. O usuário insere nick, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
-4. O sistema informa que a data de nasciemento/nome/email é invalido e retorna
-ao fluxo principal.
+4. O sistema informa que a data de nasciemento/nome/email é invalido.
+5. O usuário corrige a data de nascimento/nome/email.
+6. O usuário clica no botão “cadastrar”.
+7. O sistema armazena o usuário e o informa que a operação foi realizada.
+8. O sistema retorna o usuário para a página de login.
 
 ### CDU 02
 
@@ -55,14 +61,17 @@ Login de Usuário.
 1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
 2. O usuário insere o email e a senha.
 3. O usuário clica no botão “entrar”.
-4. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para XXXX.
+4. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
 2. O usuário insere o email e a senha.
 3. O usuário clica no botão “entrar”.
-4. O sistema informa que o email/senha foi preechido incorretamente e retorna ao fluxo principal.
+4. O sistema informa que o email/senha foi preechido incorretamente.
+5. O usuário corrige o email/senha.
+6. O usuário clica no botão “entrar”.
+7. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
 ### CDU 03
 
