@@ -125,14 +125,14 @@ Criar comentários.
 **Fluxo Principal**
 
 1. O sistema apresenta um post na página principal.
-2. O usuário cria um comentário abaixo do post.
+2. O usuário clica na text box abaixo do post e escreve uma mensagem.
 3. O usuário clica no botão “comentar”.
 4. O sistema armazena a mensagem e a exibe abaixo do post.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um post na página principal.
-2. O usuário cria um comentário abaixo do post.
+2. O usuário clica na text box abaixo do post e escreve uma mensagem.
 3. O usuário decide não criar um comentário e clica no botão “descartar comentário”.
 4. O sistema apaga o esboço da mensagem.
 
@@ -175,8 +175,42 @@ Editar comentário.
 
 **Fluxo Principal**
 
+1. O sistema apresenta um post com um comentário do usuário na página principal.
+2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
+3. O usuário altera a mensagem do comentário.
+4. O usuário clica no botão “comentar”
+5. O sistema armazena a nova mensagem e a exibe abaixo do post.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta um post com um comentário do usuário na página principal.
+2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
+3. O usário decide apagar o comentário e clica no botão “descartar comentário”.
+4. O sistema apaga o comentário do post.
+
+**Fluxo Alternativo B**
+
+1. O sistema apresenta um post com um comentário do usuário na página principal.
+2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
+3. O usário decide que não deseja fazer alterações no comentário e clica no botão “cancelar”.
+4. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
+
 ### CDU 011
 
 Apagar comentários.
 
 **Fluxo Principal**
+
+1. O sistema apresenta um post com um comentário de um usuário na página principal.
+2. O adiministrador clica no botão “Apagar comentário” ao lado do comentário.
+3. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
+4. O adiminstrador clica no botão "sim"
+5. O sistema apaga o comntário.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta um post com um comentário de um usuário na página principal.
+2. O adiministrador clica no botão “Apagar comentário” ao lado do comentário.
+3. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
+4. O adiminstrador clica no botão "não"
+5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
