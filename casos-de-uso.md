@@ -68,6 +68,8 @@ Criar posts.
 
 ### CDU 03
 
+Editar posts
+
 **Fluxo Principal**
 
 ### CDU 04
