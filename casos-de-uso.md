@@ -2,11 +2,17 @@
 
 ## Lista dos Casos de Uso
 
- - [CDU 01](#CDU-01): Cadastro de Usuário.
- - [CDU 02](#CDU-02): Login de Usuário.
- - [CDU 03](#CDU-03): Criar Comentários.
- - [CDU 04](#CDU-04): Dar like em posts.
+ - [CDU 01](#CDU-01): Registrar-se.
+ - [CDU 02](#CDU-02): XXX.
+ - [CDU 03](#CDU-03): XXX.
+ - [CDU 04](#CDU-04): Efetuar Login.
  - [CDU 05](#CDU-05): Customizar Perfil.
+ - [CDU 06](#CDU-06): Criar Comentários.
+ - [CDU 07](#CDU-07): Dar like em posts.
+ - [CDU 08](#CDU-08): XXX.
+ - [CDU 09](#CDU-09): XXX.
+ - [CDU 10](#CDU-10): XXX.
+ - [CDU 11](#CDU-11): XXX.
 
 
 ## Lista dos Atores
@@ -16,13 +22,13 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](PNGs/diagramaCU1.png)
+![Diagrama de Casos de Uso](PNGs/diagramaCU2.png)
 
 ## Descrição dos Casos de Uso
 
 ### CDU 01
 
-Cadastro de usuário
+Registrar-se
 
 **Fluxo Principal**
 
@@ -56,7 +62,7 @@ Cadastro de usuário
 
 ### CDU 02
 
-Login de Usuário.
+XXX.
 
 **Fluxo Principal**
 
@@ -77,42 +83,28 @@ Login de Usuário.
 
 ### CDU 03
 
-Criar comentários.
 
-**Fluxo Principal**
-
-1. O sistema apresenta um post na página principal.
-2. O usuário cria um comentário abaixo do post.
-3. O usuário clica no botão “comentar”.
-4. O sistema armazena a mensagem e a exibe abaixo do post.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um post na página principal.
-2. O usuário cria um comentário abaixo do post.
-3. O usuário decide não criar um comentário e clica no botão “descartar comentário”.
-4. O sistema apaga o esboço da mensagem.
 
 ### CDU 04
 
-Dar likes em posts.
+Efetuar Login.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um post na página principal.
-2. O usuário decide adicionar uma reação ao post.
-3. O usuário clica no botão “like”.
-4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
+2. O usuário insere o email e a senha.
+3. O usuário clica no botão “entrar”.
+4. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
 **Fluxo Alternativo A**
 
-1. O sistema apresenta um post na página principal.
-2. O usuário decide adicionar uma reação ao post.
-3. O usuário clica no botão “like”.
-4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
-5. O usuário muda de idea e dicide remover a sua reação ao post.
-6. O usuário clica no botão “like”.
-7. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
+2. O usuário insere o email e a senha.
+3. O usuário clica no botão “entrar”.
+4. O sistema informa que o email/senha foi preechido incorretamente.
+5. O usuário corrige o email/senha.
+6. O usuário clica no botão “entrar”.
+7. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
 ### CDU 05
 
@@ -138,3 +130,66 @@ Customizar Perfil.
 7. O usuário corrige o email/nome/senha.
 8. O usuário clica no botão “alterar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
+
+### CDU 06
+
+Criar comentários.
+
+**Fluxo Principal**
+
+1. O sistema apresenta um post na página principal.
+2. O usuário cria um comentário abaixo do post.
+3. O usuário clica no botão “comentar”.
+4. O sistema armazena a mensagem e a exibe abaixo do post.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta um post na página principal.
+2. O usuário cria um comentário abaixo do post.
+3. O usuário decide não criar um comentário e clica no botão “descartar comentário”.
+4. O sistema apaga o esboço da mensagem.
+
+### CDU 07
+
+Dar likes em posts.
+
+**Fluxo Principal**
+
+1. O sistema apresenta um post na página principal.
+2. O usuário decide adicionar uma reação ao post.
+3. O usuário clica no botão “like”.
+4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta um post na página principal.
+2. O usuário decide adicionar uma reação ao post.
+3. O usuário clica no botão “like”.
+4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+5. O usuário muda de idea e dicide remover a sua reação ao post.
+6. O usuário clica no botão “like”.
+7. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+
+### CDU 08
+
+XXX.
+
+**Fluxo Principal**
+
+### CDU 09
+
+XXX.
+
+**Fluxo Principal**
+
+### CDU 010
+
+XXX.
+
+**Fluxo Principal**
+
+### CDU 011
+
+XXX.
+
+**Fluxo Principal**
