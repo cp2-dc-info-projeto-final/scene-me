@@ -234,7 +234,7 @@ Denunciar Perfil.
 5. O usuário clica no botão “Denunciar perfil”.
 6. O sitema armazena um registro de denuncia no usuário escolhido.
 
-### CDU 010
+### CDU 10
 
 Editar comentário.
 
@@ -262,7 +262,7 @@ Editar comentário.
 4. O usuário clica no botão “cancelar”.
 5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
 
-### CDU 011
+### CDU 11
 
 Apagar comentários.
 
