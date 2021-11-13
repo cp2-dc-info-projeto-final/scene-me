@@ -2,7 +2,7 @@
 
 RF 01 
 
-O sistema deverá ser capaz de armazenar de cada usuário nome, Nick, e-mail e data de nascimento.
+O sistema deverá ser capaz de armazenar de cada usuário nome, e-mail e data de nascimento.
 
 RF 02
 
