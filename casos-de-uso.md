@@ -33,7 +33,7 @@ Registrar-se
 **Fluxo Principal**
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
-2. O usuário insere nick, email, senha e data de nascimento.
+2. O usuário insere nome, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
 4. O sistema armazena o usuário e o informa que a operação foi realizada.
 5. O sistema retorna o usuário para a página de login.
@@ -41,7 +41,7 @@ Registrar-se
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
-2. O usuário insere nick, email, senha e data de nascimento.
+2. O usuário insere nome, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
 4. O sistema informa que já existe um usuário com o e-mail fornecido.
 5. O usuário usa outro email na criação da conta.
@@ -52,7 +52,7 @@ Registrar-se
 **Fluxo Alternativo B**
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
-2. O usuário insere nick, email, senha e data de nascimento.
+2. O usuário insere nome, email, senha e data de nascimento.
 3. O usuário clica no botão “cadastrar”.
 4. O sistema informa que a data de nasciemento/nome/email é invalido.
 5. O usuário corrige a data de nascimento/nome/email.
