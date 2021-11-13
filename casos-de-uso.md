@@ -3,16 +3,16 @@
 ## Lista dos Casos de Uso
 
  - [CDU 01](#CDU-01): Registrar-se.
- - [CDU 02](#CDU-02): XXX.
- - [CDU 03](#CDU-03): XXX.
+ - [CDU 02](#CDU-02): Criar Posts.
+ - [CDU 03](#CDU-03): Editar Posts.
  - [CDU 04](#CDU-04): Efetuar Login.
  - [CDU 05](#CDU-05): Customizar Perfil.
  - [CDU 06](#CDU-06): Criar Comentários.
- - [CDU 07](#CDU-07): Dar like em posts.
- - [CDU 08](#CDU-08): XXX.
- - [CDU 09](#CDU-09): XXX.
- - [CDU 10](#CDU-10): XXX.
- - [CDU 11](#CDU-11): XXX.
+ - [CDU 07](#CDU-07): Reagir a posts.
+ - [CDU 08](#CDU-08): Banir usuários.
+ - [CDU 09](#CDU-09): Denunciar Perfil.
+ - [CDU 10](#CDU-10): Editar comentário.
+ - [CDU 11](#CDU-11): Apagar comentários.
 
 
 ## Lista dos Atores
@@ -62,28 +62,13 @@ Registrar-se
 
 ### CDU 02
 
-XXX.
+Criar posts.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
-2. O usuário insere o email e a senha.
-3. O usuário clica no botão “entrar”.
-4. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
-2. O usuário insere o email e a senha.
-3. O usuário clica no botão “entrar”.
-4. O sistema informa que o email/senha foi preechido incorretamente.
-5. O usuário corrige o email/senha.
-6. O usuário clica no botão “entrar”.
-7. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
-
 ### CDU 03
 
-
+**Fluxo Principal**
 
 ### CDU 04
 
@@ -151,7 +136,7 @@ Criar comentários.
 
 ### CDU 07
 
-Dar likes em posts.
+Reagir a posts.
 
 **Fluxo Principal**
 
@@ -172,24 +157,24 @@ Dar likes em posts.
 
 ### CDU 08
 
-XXX.
+Banir usuários.
 
 **Fluxo Principal**
 
 ### CDU 09
 
-XXX.
+Denunciar Perfil.
 
 **Fluxo Principal**
 
 ### CDU 010
 
-XXX.
+Editar comentário.
 
 **Fluxo Principal**
 
 ### CDU 011
 
-XXX.
+Apagar comentários.
 
 **Fluxo Principal**
