@@ -9,7 +9,7 @@
  - [CDU 05](#CDU-05): Customizar Perfil.
  - [CDU 06](#CDU-06): Criar Comentários.
  - [CDU 07](#CDU-07): Reagir a posts.
- - [CDU 08](#CDU-08): Banir usuários.
+ - [CDU 08](#CDU-08): Exclusão de usuário (Banir usuários).
  - [CDU 09](#CDU-09): Denunciar Perfil.
  - [CDU 10](#CDU-10): Editar comentário.
  - [CDU 11](#CDU-11): Apagar comentários.
@@ -65,6 +65,20 @@ Registrar-se
 Criar posts.
 
 **Fluxo Principal**
+
+1. O sistema apresenta a página principal.
+2. O usuário clica no botão “Criar post”.
+3. O usuário escreve a mensagem que ele deseja passar.
+4. O usuário clica no botão “Enviar”.
+5. O sistema armazena a mensagem e a exibe na página principal.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta a página principal.
+2. O usuário clica no botão “Criar post”.
+3. O usuário decide que não deseja mais criar um post.
+4. O usuário clica no botão “Cancelar”.
+5. O sistema apaga o esboço do post.
 
 ### CDU 03
 
@@ -159,9 +173,27 @@ Reagir a posts.
 
 ### CDU 08
 
-Banir usuários.
+Exclusão de usuário (Banir usuários).
 
 **Fluxo Principal**
+
+1. O sistema apresenta a página principal.
+2. O adiministrador abre a janela de adiministração.
+3. O adiministrador escolhe um usuário na lista a ser banido.
+4. O adiministrador clica no usuário e no botão “banir” ao lado do usuário escolhido.
+5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
+6. O adiiminstrador clica no botão “Ok”.
+5. O sistema apaga o cadastro do usuário banido.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta a página principal.
+2. O adiministrador abre a janela de adiministração.
+3. O adiministrador escolhe um usuário na lista a ser banido.
+4. O adiministrador clica no usuário e no botão “banir” ao lado do usuário escolhido.
+5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
+6. O adiiminstrador clica no botão “Cancelar”.
+5. O sistema cancela a operão de banimento e usuário continua com a sua conta.
 
 ### CDU 09
 
@@ -185,15 +217,17 @@ Editar comentário.
 
 1. O sistema apresenta um post com um comentário do usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usário decide apagar o comentário e clica no botão “descartar comentário”.
-4. O sistema apaga o comentário do post.
+3. O usário decide que não deseja mais o comentário 
+4. O usuário clica no botão “descartar comentário”.
+5. O sistema apaga o comentário do post.
 
 **Fluxo Alternativo B**
 
 1. O sistema apresenta um post com um comentário do usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usário decide que não deseja fazer alterações no comentário e clica no botão “cancelar”.
-4. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
+3. O usário decide que não deseja fazer alterações no comentário 
+4. O usuário clica no botão “cancelar”.
+5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
 
 ### CDU 011
 
