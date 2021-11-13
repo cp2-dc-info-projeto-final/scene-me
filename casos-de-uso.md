@@ -86,6 +86,20 @@ Editar posts
 
 **Fluxo Principal**
 
+1. O sistema apresenta um post feito pelo usuário na página principal.
+2. O usuário clica no botão “Editar post”.
+3. O usuário escreve a nova mensagem que ele deseja passar.
+4. O usuário clica no botão “Enviar”.
+5. O sistema armazena a nova mensagem e a exibe na página principal.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta um post feito pelo usuário na página principal.
+2. O usuário clica no botão “Editar post”.
+3. O usuário decide que não deseja mais editar o post.
+4. O usuário clica no botão “Cancelar”.
+5. O sistema apaga o esboço da nova mensagem do post.
+
 ### CDU 04
 
 Efetuar Login.
@@ -116,8 +130,8 @@ Customizar Perfil.
 1. O sistema apresenta a página de perfil do usuário.
 2. O usuário decide alterar suas informações pessoais.
 3. O usuário clica no botão “editar”.
-4. O usuário muda email/nome/senha.
-5. O usuário clica no botão “alterarr”.
+4. O usuário insere a senha antiga e muda email/nome/senha.
+5. O usuário clica no botão “alterar”.
 6. O sistema altera as informações do usuário e o informa que a operação foi realizada.
 
 **Fluxo Alternativo A**
@@ -125,10 +139,22 @@ Customizar Perfil.
 1. O sistema apresenta a página de perfil do usuário.
 2. O usuário decide alterar suas informações pessoais.
 3. O usuário clica no botão “editar”.
-4. O usuário muda email/nome/senha.
+4. O usuário insere a senha antiga e muda email/nome/senha.
 5. O usuário clica no botão “alterar”.
 6. O sistema informa o usuário que o email/nome/senha é invalido.
 7. O usuário corrige o email/nome/senha.
+8. O usuário clica no botão “alterar”.
+9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
+
+**Fluxo Alternativo B**
+
+1. O sistema apresenta a página de perfil do usuário.
+2. O usuário decide alterar suas informações pessoais.
+3. O usuário clica no botão “editar”.
+4. O usuário insere a senha antiga e muda email/nome/senha.
+5. O usuário clica no botão “alterar”.
+6. O sistema informa o usuário que a senha antiga foi preenchida incorretamente.
+7. O usuário preenche a senha antiga corretamente.
 8. O usuário clica no botão “alterar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
 
@@ -179,27 +205,34 @@ Exclusão de usuário (Banir usuários).
 
 1. O sistema apresenta a página principal.
 2. O adiministrador abre a janela de adiministração.
-3. O adiministrador escolhe um usuário na lista a ser banido.
-4. O adiministrador clica no usuário e no botão “banir” ao lado do usuário escolhido.
+3. O adiministrador escolhe um usuário na lista para excluir a conta.
+4. O adiministrador clica no usuário e no botão “Excluir” ao lado do usuário escolhido.
 5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
 6. O adiiminstrador clica no botão “Ok”.
-5. O sistema apaga o cadastro do usuário banido.
+5. O sistema apaga o cadastro do usuário escolhido.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta a página principal.
 2. O adiministrador abre a janela de adiministração.
-3. O adiministrador escolhe um usuário na lista a ser banido.
-4. O adiministrador clica no usuário e no botão “banir” ao lado do usuário escolhido.
+3. O adiministrador escolhe um usuário na lista para excluir a conta.
+4. O adiministrador clica no usuário e no botão “Excluir” ao lado do usuário escolhido.
 5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
 6. O adiiminstrador clica no botão “Cancelar”.
-5. O sistema cancela a operão de banimento e usuário continua com a sua conta.
+5. O sistema cancela a operão de exclusão e o usuário escolhido continua com a sua conta.
 
 ### CDU 09
 
 Denunciar Perfil.
 
 **Fluxo Principal**
+
+1. O sistema apresenta a página principal.
+2. O usuário encontra um post ou comentário inapropiado.
+3. O usuário clica no perfil do usário com post/comentário indequado.
+4. O sistema leva o usuário a página de perfil do autor do post/cometário.
+5. O usuário clica no botão “Denunciar perfil”.
+6. O sitema armazena um registro de denuncia no usuário escolhido.
 
 ### CDU 010
 
