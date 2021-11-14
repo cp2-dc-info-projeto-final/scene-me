@@ -14,6 +14,11 @@
  - [CDU 10](#CDU-10): Editar comentário.
  - [CDU 11](#CDU-11): Apagar comentários.
 
+ - [CDU 12](#CDU-12): Listar usuários.
+ - [CDU 13](#CDU-13): Conceder privilégios de adiministrador.
+ - [CDU 14](#CDU-14): Retirar privilégios de adiministrador.
+ - [CDU 15](#CDU-15): Busca de usuário por palavra chave.
+
 
 ## Lista dos Atores
 
@@ -22,7 +27,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](PNGs/diagramaCU2.png)
+![Diagrama de Casos de Uso](PNGs/diagramaCU3.png)
 
 ## Descrição dos Casos de Uso
 
@@ -281,3 +286,61 @@ Apagar comentários.
 3. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
 4. O adiminstrador clica no botão "não"
 5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
+
+### CDU 12
+
+Listar usuários.
+
+**Fluxo Principal**
+
+1. O sistema apresenta a página principal.
+2. O adiministrador clica no botão “Admin dashboard”.
+3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
+
+### CDU 13
+
+Conceder privilégios de adiministrador.
+
+**Fluxo Principal**
+
+1. O sistema apresenta a página principal.
+2. O adiministrador clica no botão “Admin dashboard”.
+3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
+4. O adiministrador decide conceder privilégios de adiministrador a um usuário.
+5. O adiministrador clica no botão “Conceder privilégios” ao lado do usuário escolhido.
+6. O sistema concede privilégios de adiministrador ao usuário escolhido.
+
+### CDU 14
+
+Retirar privilégios de adiministrador.
+
+**Fluxo Principal** 
+
+1. O sistema apresenta a página principal.
+2. O adiministrador clica no botão “Admin dashboard”.
+3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
+4. O adiministrador decide revogar os privilégios de adiministrador de um adiministrador.
+5. O adiministrador clica no botão “Revogar privilégios” ao lado do adiministrador escolhido.
+6. O sistema revoga os privilégios de adiministrador ao adiministrador escolhido.
+
+### CDU 15
+
+Busca de usuário por palavra chave.
+
+**Fluxo Principal**
+
+1. O sistema apresenta a página principal.
+2. O usuário clica na barra de pesquisa e escreve um nome.
+2. O usuário clica no botão “Pesquisar”.
+3. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta a página principal.
+2. O usuário clica na barra de pesquisa e escreve um nome.
+2. O usuário clica no botão “Pesquisar”.
+3. O sistema apresenta uma mensagem dizendo que não ah nenhum usuário com um nome similar ao 
+digitado pelo usuário.
+4. O usuário escreve outro nome na barra de pesquisa.
+5. O usuário clica no botão “Pesquisar”.
+6. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
