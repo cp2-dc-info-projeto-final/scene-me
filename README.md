@@ -9,7 +9,10 @@ Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colé
 
 ## Descrição do Projeto
 
-Nosso projeto...
+O projeto SceneMe é um site feito para amantes de filmes como nós! 
+O lugar perfeito para debater sobre os seus filmes favoritos, encontrar pessoas 
+com gostos similares aos seus e testar sua sabedoria de cada filme.
+O que você esta esperando? Venha se juntar a nós no SceneMe! 
 
 ## Documentação
 
