@@ -245,7 +245,7 @@ Editar comentário.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um post com um comentário do usuário na página principal.
+1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
 3. O usuário altera a mensagem do comentário.
 4. O usuário clica no botão “comentar”
@@ -253,15 +253,15 @@ Editar comentário.
 
 **Fluxo Alternativo A**
 
-1. O sistema apresenta um post com um comentário do usuário na página principal.
+1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usário decide que não deseja mais o comentário 
+3. O usário decide apagar o seu comentário. 
 4. O usuário clica no botão “descartar comentário”.
 5. O sistema apaga o comentário do post.
 
 **Fluxo Alternativo B**
 
-1. O sistema apresenta um post com um comentário do usuário na página principal.
+1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
 3. O usário decide que não deseja fazer alterações no comentário 
 4. O usuário clica no botão “cancelar”.
@@ -274,18 +274,20 @@ Apagar comentários.
 **Fluxo Principal**
 
 1. O sistema apresenta um post com um comentário de um usuário na página principal.
-2. O adiministrador clica no botão “Apagar comentário” ao lado do comentário.
-3. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
-4. O adiminstrador clica no botão "sim"
-5. O sistema apaga o comntário.
+2. O adiministrador decide apagar o comentário por ser inapropiado/ofensivo.
+3. O adiministrador clica no botão “Apagar comentário” ao lado do comentário.
+4. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
+5. O adiminstrador clica no botão "sim"
+6. O sistema apaga o comntário.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um post com um comentário de um usuário na página principal.
-2. O adiministrador clica no botão “Apagar comentário” ao lado do comentário.
-3. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
-4. O adiminstrador clica no botão "não"
-5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
+2. O adiministrador decide apagar o comentário por ser inapropiado/ofensivo.
+3. O adiministrador clica no botão “Apagar comentário” ao lado do comentário.
+4. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
+5. O adiminstrador clica no botão "não"
+6. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
 
 ### CDU 12
 
