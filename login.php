@@ -36,7 +36,7 @@ a<html>
                         <input type="password" class="form-control justify-content-center " name="senha" placeholder="senha                                                                             🔒" >
                     </div>
                     <div class="col-4 offset-md-4 align-items-center mt-4" >
-                    <button type="submit" name="submit" class="btn btn-warning">Entrar</button> ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<a class="btn btn-warning" href="cadastroForm.php" role="button">Voltar ao cadastro</a>                    
+                    <button type="submit" name="submit" class="btn btn-warning">Entrar</button> ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<a class="btn btn-warning" href="index.php" role="button">Voltar ao cadastro</a>                    
                 </div>
              </form>          
 		</div>
