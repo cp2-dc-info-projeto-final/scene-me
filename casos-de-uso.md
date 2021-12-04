@@ -1,12 +1,12 @@
 # Documento de Casos de Uso
 
-## Lista dos Casos de Uso (notas: 3/6/10/13/14/16/17/18 precisam ser terminados)
+## Lista dos Casos de Uso (notas: 3/6/10/13/14/16/17/18/19 precisam ser terminados)
 
  - [CDU 01](#CDU-01): Registrar-se.
  - [CDU 02](#CDU-02): Efetuar Login.
  - [CDU 03](#CDU-03): Efetuar Logout.
  - [CDU 04](#CDU-04): Customizar Perfil.
- - [CDU 05](#CDU-05): Listar usuários.
+ - [CDU 05](#CDU-05): Listar usuários (adm).
  - [CDU 06](#CDU-06): Editar Usuário (adm).
  - [CDU 07](#CDU-07): Exclusão de usuário (adm).
  - [CDU 08](#CDU-08): Conceder privilégios de adiministrador (adm).
@@ -94,17 +94,10 @@ Efetuar Logout.
 
 **Fluxo Principal**
 
-1. O sistema apresenta de perfil do usuário.
-2. O usuário deciuas informações pessoais.
-3. O usuário itar”.
-4. O usuário insere a s muda email/nome/senha.
-5. O usuário clica no botão “alterar”.
-6. O sistema altera as infoo foi realizada.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta a página de perfil do usuário.
-2. O usuário decide alterar suas informações pessoais.
+1. O sistema apresenta a página principal.
+2. O usuário decide desconectar a sua conta do site.
+3. O usuário clica no botão “Logout.
+4. O sistema desconecta a conta do usuário e o leva para a página de login.
 
 ### CDU 04
 
@@ -126,7 +119,7 @@ Customizar Perfil.
 3. O usuário clica no botão “editar”.
 4. O usuário insere a senha antiga e muda email/nome/senha.
 5. O usuário clica no botão “alterar”.
-6. O sistema informa o usuário que o email/nome/senha é invalido.
+6. O sistema informa o usuário que o novo email/nome/senha é invalido.
 7. O usuário corrige o email/nome/senha.
 8. O usuário clica no botão “alterar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
@@ -145,25 +138,14 @@ Customizar Perfil.
 
 ### CDU 05
 
-Busca de usuário por palavra chave.
+Listar Usuários (adm).
 
 **Fluxo Principal**
 
 1. O sistema apresenta a página principal.
-2. O usuário clica na barra de pesquisa e escreve um nome.
-2. O usuário clica no botão “Pesquisar”.+
-3. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta a página principal.
-2. O usuário clica na barra de pesquisa e escreve um nome.
-2. O usuário clica no botão “Pesquisar”.
-3. O sistema apresenta uma mensagem dizendo que não ah nenhum usuário com um nome similar ao 
-digitado pelo usuário.
-4. O usuário escreve outro nome na barra de pesquisa.
-5. O usuário clica no botão “Pesquisar”.
-6. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
+2. O adiministrador abre a janela de adiministração.
+3. O sistema abre a jenla de adiministração.
+4. O adiministrador têm na janela, acesso a uma lista contendo todos os dados de todos os usuários do site.
 
 ### CDU 06
 
@@ -171,15 +153,13 @@ Editar Usuário (Adm).
 
 **Fluxo Principal**
 
-1. O sistema apresent
-2. O usuário clica na barra dee.
-2. O usuário clica no b
-3. O sistema apresenta umigitado.
-
-**Fluxo Alternativo A**
-
 1. O sistema apresenta a página principal.
-2. O usuário clica na barra de .
+2. O adiministrador abre o Dashboard de adiministração.
+3. O adiministrador escolhe um usuário na lista para ter a sua conta alterada.
+4. O adiministrador clica no botão “Editar” ao lado do usuário escolhido.
+5. O adiministrador altera os campos que necessitam de alteração.
+6. O adiministrador clica no botão “Atualizar”
+7. O sistema altera as informações do usuário escolhido.
 
 ### CDU 07
 
@@ -189,7 +169,7 @@ Exclusão de usuário (adm).
 
 1. O sistema apresenta a página principal.
 2. O adiministrador abre a janela de adiministração.
-3. O adiministrador escolhe um usuário na lista para excluir a conta.
+3. O adiministrador escolhe um usuário na lista para ter a sua conta excluida.
 4. O adiministrador clica no usuário e no botão “Excluir” ao lado do usuário escolhido.
 5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
 6. O adiiminstrador clica no botão “Ok”.
@@ -199,7 +179,7 @@ Exclusão de usuário (adm).
 
 1. O sistema apresenta a página principal.
 2. O adiministrador abre a janela de adiministração.
-3. O adiministrador escolhe um usuário na lista para excluir a conta.
+3. O adiministrador escolhe um usuário na lista para ter a sua conta excluida.
 4. O adiministrador clica no usuário e no botão “Excluir” ao lado do usuário escolhido.
 5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
 6. O adiiminstrador clica no botão “Cancelar”.
@@ -238,8 +218,20 @@ Busca de usuário por palavra chave.
 **Fluxo Principal**
 
 1. O sistema apresenta a página principal.
-2. O adiministrador clica no botão “Admin dashboard”.
-3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
+2. O usuário clica na barra de pesquisa e escreve um nome.
+2. O usuário clica no botão “Pesquisar”.
+3. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
+
+**Fluxo Alternativo A**
+
+1. O sistema apresenta a página principal.
+2. O usuário clica na barra de pesquisa e escreve um nome.
+2. O usuário clica no botão “Pesquisar”.
+3. O sistema apresenta uma mensagem dizendo que não ah nenhum usuário com um nome similar ao 
+digitado pelo usuário.
+4. O usuário escreve outro nome na barra de pesquisa.
+5. O usuário clica no botão “Pesquisar”.
+6. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
 
 ### CDU 11
 
@@ -289,8 +281,8 @@ Apagar posts.
 
 1. O sistema apresenta um post feito pelo usuário na página principal.
 2. O usuário clica no botão “Editar post”.
-3. O usuário escrevedeseja passar.
-4. O usuário”.
+3. O usuário deseja apagar o seu própio post.
+4. O usuário clica no botão “Excluir”.
 5. O sistema armazena a nova m principal.
 
 **Fluxo Alternativo A**
@@ -328,7 +320,7 @@ Criar comentários.
 
 1. O sistema apresenta um post na página principal.
 2. O usuário clica na text box abaixo do post e escreve uma mensagem.
-3. O usuário decide não criar um comentário e clica no botão “descartar comentário”.
+3. O usuário decide não criar mais o comentário e clica no botão “descartar comentário”.
 4. O sistema apaga o esboço da mensagem.
 
 ### CDU 16
@@ -347,14 +339,6 @@ Editar comentário.
 
 1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usário decide apagar o seu comentário. 
-4. O usuário clica no botão “descartar comentário”.
-5. O sistema apaga o comentário do post.
-
-**Fluxo Alternativo B**
-
-1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
-2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
 3. O usário decide que não deseja fazer alterações no comentário 
 4. O usuário clica no botão “cancelar”.
 5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
@@ -367,13 +351,15 @@ Excluir comentário.
 
 1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
 2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usuário altera a mensagem do comentário.
-4. O usuário clica no botão “comentar”
-5. O sistema armazena a nova mensagem e a exibe abaixo do post.
+3. O usuário deicde apagar o seu comentário.
+4. O usuário clica no botão “Excluir”
+5. O sistema exclui o comentário do post.
 
 **Fluxo Alternativo A**
 
-1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
+1. O sistema apresenta um post com um comentário feito por um usuário na página principal.
+2. O adiministrador clica no botão “excluir” ao lado do comentário.
+3. O sistema exclui o comentário do post.
 
 ### CDU 18
 
@@ -381,8 +367,8 @@ Exibir Comentário na timeline.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
-2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
+1. O sistema apresenta um post com um comentário feito por um usuário na página principal.
+2. O usuário usa o scroll do mouse para ver 
 3. O usuário altera a mensagem do comentário.
 4. O usuário clica no botão “comentar”
 5. O sistema armazena a nova mensagem e a exibe abaixo do post.
