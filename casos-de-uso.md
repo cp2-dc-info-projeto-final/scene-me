@@ -41,7 +41,7 @@ Registrar-se
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
 2. O usuário insere nome, email, senha e data de nascimento.
-3. O usuário clica no botão “cadastrar”.
+3. O usuário clica no botão “Cadastrar”.
 4. O sistema armazena o usuário e o informa que a operação foi realizada.
 5. O sistema retorna o usuário para a página de login.
 
@@ -49,10 +49,10 @@ Registrar-se
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
 2. O usuário insere nome, email, senha e data de nascimento.
-3. O usuário clica no botão “cadastrar”.
+3. O usuário clica no botão “Cadastrar”.
 4. O sistema informa que já existe um usuário com o e-mail fornecido.
 5. O usuário usa outro email na criação da conta.
-6. O usuário clica no botão “cadastrar”.
+6. O usuário clica no botão “Cadastrar”.
 7. O sistema armazena o usuário e o informa que a operação foi realizada.
 8. O sistema retorna o usuário para a página de login.
 
@@ -60,10 +60,10 @@ Registrar-se
 
 1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
 2. O usuário insere nome, email, senha e data de nascimento.
-3. O usuário clica no botão “cadastrar”.
+3. O usuário clica no botão “Cadastrar”.
 4. O sistema informa que a data de nasciemento/nome/email é invalido.
 5. O usuário corrige a data de nascimento/nome/email.
-6. O usuário clica no botão “cadastrar”.
+6. O usuário clica no botão “Cadastrar”.
 7. O sistema armazena o usuário e o informa que a operação foi realizada.
 8. O sistema retorna o usuário para a página de login.
 
@@ -73,20 +73,24 @@ Efetuar Login.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
-2. O usuário insere o email e a senha.
-3. O usuário clica no botão “entrar”.
-4. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
+1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
+2. O usuário clica no botão “Já tem uma conta?”.
+3. O sistema leva o suário para uma página de login, que apresenta um formulário de com os campos onde o usuário deve preencher.
+4. O usuário insere o email e a senha.
+5. O usuário clica no botão “Entrar”.
+6. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
 **Fluxo Alternativo A**
 
-1. O sistema apresenta um formulário de login com os campos onde o usuário deve preencher.
-2. O usuário insere o email e a senha.
-3. O usuário clica no botão “entrar”.
-4. O sistema informa que o email/senha foi preechido incorretamente.
-5. O usuário corrige o email/senha.
-6. O usuário clica no botão “entrar”.
-7. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
+1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
+2. O usuário clica no botão “Já tem uma conta?”. 
+3. O sistema leva o suário para uma página de login, que apresenta um formulário de com os campos onde o usuário deve preencher.
+4. O usuário insere o email e a senha.
+5. O usuário clica no botão “Entrar”.
+6. O sistema informa que o email/senha foi preechido incorretamente.
+7. O usuário corrige o email/senha.
+8. O usuário clica no botão “Entrar”.
+9. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
 ### CDU 03
 
@@ -96,7 +100,7 @@ Efetuar Logout.
 
 1. O sistema apresenta a página principal.
 2. O usuário decide desconectar a sua conta do site.
-3. O usuário clica no botão “Logout.
+3. O usuário clica no botão “Sair”.
 4. O sistema desconecta a conta do usuário e o leva para a página de login.
 
 ### CDU 04
@@ -107,33 +111,33 @@ Customizar Perfil.
 
 1. O sistema apresenta a página de perfil do usuário.
 2. O usuário decide alterar suas informações pessoais.
-3. O usuário clica no botão “editar”.
+3. O usuário clica no botão “Alterar Dados”.
 4. O usuário insere a senha antiga e muda email/nome/senha.
-5. O usuário clica no botão “alterar”.
+5. O usuário clica no botão “Atualizar”.
 6. O sistema altera as informações do usuário e o informa que a operação foi realizada.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta a página de perfil do usuário.
 2. O usuário decide alterar suas informações pessoais.
-3. O usuário clica no botão “editar”.
+3. O usuário clica no botão “Alterar Dados”.
 4. O usuário insere a senha antiga e muda email/nome/senha.
-5. O usuário clica no botão “alterar”.
+5. O usuário clica no botão “Atualizar”.
 6. O sistema informa o usuário que o novo email/nome/senha é invalido.
 7. O usuário corrige o email/nome/senha.
-8. O usuário clica no botão “alterar”.
+8. O usuário clica no botão “Atualizar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
 
 **Fluxo Alternativo B**
 
 1. O sistema apresenta a página de perfil do usuário.
 2. O usuário decide alterar suas informações pessoais.
-3. O usuário clica no botão “editar”.
+3. O usuário clica no botão “Alterar Dados”.
 4. O usuário insere a senha antiga e muda email/nome/senha.
-5. O usuário clica no botão “alterar”.
+5. O usuário clica no botão “Atualizar”.
 6. O sistema informa o usuário que a senha antiga foi preenchida incorretamente.
 7. O usuário preenche a senha antiga corretamente.
-8. O usuário clica no botão “alterar”.
+8. O usuário clica no botão “Atualizar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
 
 ### CDU 05
@@ -144,7 +148,7 @@ Listar Usuários (adm).
 
 1. O sistema apresenta a página principal.
 2. O adiministrador abre a janela de adiministração.
-3. O sistema abre a jenla de adiministração.
+3. O sistema abre a jenela de adiministração.
 4. O adiministrador têm na janela, acesso a uma lista contendo todos os dados de todos os usuários do site.
 
 ### CDU 06
@@ -169,21 +173,10 @@ Exclusão de usuário (adm).
 
 1. O sistema apresenta a página principal.
 2. O adiministrador abre a janela de adiministração.
-3. O adiministrador escolhe um usuário na lista para ter a sua conta excluida.
-4. O adiministrador clica no usuário e no botão “Excluir” ao lado do usuário escolhido.
-5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
-6. O adiiminstrador clica no botão “Ok”.
-5. O sistema apaga o cadastro do usuário escolhido.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta a página principal.
-2. O adiministrador abre a janela de adiministração.
-3. O adiministrador escolhe um usuário na lista para ter a sua conta excluida.
-4. O adiministrador clica no usuário e no botão “Excluir” ao lado do usuário escolhido.
-5. O sistema apresenta um aviso de que essa operação não pode ser desfeita.
-6. O adiiminstrador clica no botão “Cancelar”.
-5. O sistema cancela a operão de exclusão e o usuário escolhido continua com a sua conta.
+3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
+4. O adiministrador escolhe um usuário na lista para ter a sua conta excluida.
+5. O adiministrador clica no usuário e no botão “Deletar” ao lado do usuário escolhido.
+6. O sistema apaga o cadastro do usuário escolhido.
 
 ### CDU 08
 
@@ -192,11 +185,12 @@ Conceder privilégios de adiministrador (adm).
 **Fluxo Principal**
 
 1. O sistema apresenta a página principal.
-2. O adiministrador clica no botão “Admin dashboard”.
+2. O adiministrador abre a janela de adiministração.
 3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
 4. O adiministrador decide conceder privilégios de adiministrador a um usuário.
-5. O adiministrador clica no botão “Conceder privilégios” ao lado do usuário escolhido.
-6. O sistema concede privilégios de adiministrador ao usuário escolhido.
+5. O adiministrador clica no botão “Editar” ao lado do usuário escolhido.
+6. O adiministrador concede privlégios de adiministrador ao usuário.
+7. O sistema aplica os privilégios de adiministrador ao usuário escolhido.
 
 ### CDU 09
 
@@ -205,11 +199,12 @@ Retirar privilégios de adiministrador (adm).
 **Fluxo Principal** 
 
 1. O sistema apresenta a página principal.
-2. O adiministrador clica no botão “Admin dashboard”.
+2. O adiministrador abre a janela de adiministração.
 3. O sistema abre a janela de adiministração contendo a lista de todos os usuários do site.
-4. O adiministrador decide revogar os privilégios de adiministrador de um adiministrador.
-5. O adiministrador clica no botão “Revogar privilégios” ao lado do adiministrador escolhido.
-6. O sistema revoga os privilégios de adiministrador ao adiministrador escolhido.
+4. O adiministrador decide retirar privilégios de adiministrador a um usuário.
+5. O adiministrador clica no botão “Editar” ao lado do usuário escolhido.
+6. O adiministrador retira os privlégios de adiministrador do usuário.
+7. O sistema remove os privilégios de adiministrador do usuário escolhido.
 
 ### CDU 10
 
@@ -219,18 +214,17 @@ Busca de usuário por palavra chave.
 
 1. O sistema apresenta a página principal.
 2. O usuário clica na barra de pesquisa e escreve um nome.
-2. O usuário clica no botão “Pesquisar”.
+2. O usuário clica no botão “Buscar Usuário”.
 3. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta a página principal.
 2. O usuário clica na barra de pesquisa e escreve um nome.
-2. O usuário clica no botão “Pesquisar”.
-3. O sistema apresenta uma mensagem dizendo que não ah nenhum usuário com um nome similar ao 
-digitado pelo usuário.
+2. O usuário clica no botão “Buscar Usuário”.
+3. O sistema apresenta uma mensagem dizendo que não ah nenhum usuário similar ao nome digitado.
 4. O usuário escreve outro nome na barra de pesquisa.
-5. O usuário clica no botão “Pesquisar”.
+5. O usuário clica no botão “Buscar Usuário”.
 6. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
 
 ### CDU 11
