@@ -234,18 +234,18 @@ Criar posts.
 **Fluxo Principal**
 
 1. O sistema apresenta a página principal.
-2. O usuário clica no botão “Criar post”.
-3. O usuário escreve a mensagem que ele deseja passar.
+2. O usuário clica no botão “Criar um post”.
+3. O usuário escreve um título e uma mensagem que ele deseja passar.
 4. O usuário clica no botão “Enviar”.
 5. O sistema armazena a mensagem e a exibe na página principal.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta a página principal.
-2. O usuário clica no botão “Criar post”.
+2. O usuário clica no botão “Criar um post”.
 3. O usuário decide que não deseja mais criar um post.
-4. O usuário clica no botão “Cancelar”.
-5. O sistema apaga o esboço do post.
+4. O usuário clica no botão “Fechar”.
+5. O sistema fecha a janela de criação de post.
 
 ### CDU 12
 
@@ -255,17 +255,9 @@ Editar posts.
 
 1. O sistema apresenta um post feito pelo usuário na página principal.
 2. O usuário clica no botão “Editar post”.
-3. O usuário escreve a nova mensagem que ele deseja passar.
-4. O usuário clica no botão “Enviar”.
+3. O usuário altera o título e/ou a mensagem antiga.
+4. O usuário clica no botão “Atualizar”.
 5. O sistema armazena a nova mensagem e a exibe na página principal.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um post feito pelo usuário na página principal.
-2. O usuário clica no botão “Editar post”.
-3. O usuário decide que não deseja mais editar o post.
-4. O usuário clica no botão “Cancelar”.
-5. O sistema apaga o esboço da nova mensagem do post.
 
 ### CDU 13
 
