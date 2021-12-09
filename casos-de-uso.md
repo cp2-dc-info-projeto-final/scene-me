@@ -7,7 +7,7 @@
  - [CDU 03](#CDU-03): Efetuar Logout.
  - [CDU 04](#CDU-04): Customizar Perfil.
  - [CDU 05](#CDU-05): Listar usuários (adm).
- - [CDU 06](#CDU-06): Editar Usuário (adm).
+ - [CDU 06](#CDU-06): Editar usuário (adm).
  - [CDU 07](#CDU-07): Exclusão de usuário (adm).
  - [CDU 08](#CDU-08): Conceder privilégios de adiministrador (adm).
  - [CDU 09](#CDU-09): Retirar privilégios de adiministrador (adm).
@@ -16,10 +16,10 @@
  - [CDU 12](#CDU-12): Editar Posts.
  - [CDU 13](#CDU-13): Apagar Posts.
  - [CDU 14](#CDU-14): Exibir timeline do Usuário.
- - [CDU 15](#CDU-15): Criar Comentários.
+ - [CDU 15](#CDU-15): Criar comentários.
  - [CDU 16](#CDU-16): Editar comentário.
  - [CDU 17](#CDU-17): Excluir comentário.
- - [CDU 18](#CDU-18): Exibir Comentário na timeline do Usuário.
+ - [CDU 18](#CDU-18): Exibir comentário na timeline do Usuário.
  - [CDU 19](#CDU-19): Reagir a posts e comentários.
 
 ## Lista dos Atores
@@ -142,7 +142,7 @@ Customizar Perfil.
 
 ### CDU 05
 
-Listar Usuários (adm).
+Listar usuários (adm).
 
 **Fluxo Principal**
 
@@ -153,7 +153,7 @@ Listar Usuários (adm).
 
 ### CDU 06
 
-Editar Usuário (Adm).
+Editar usuário (Adm).
 
 **Fluxo Principal**
 
@@ -277,7 +277,7 @@ Apagar posts.
 
 ### CDU 14
 
-Exibir timeline do Usuário.
+Exibir timeline do usuário.
 
 **Fluxo Principal**
 
