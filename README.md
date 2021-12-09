@@ -27,4 +27,4 @@ O que você esta esperando? Venha se juntar a nós no SceneMe!
 
 **Modelagem do Banco de Dados**
 
-![Diagrama de Banco de Dados](PNGs/DiagramBD.png)
+![Diagrama de Banco de Dados](PNGs/DiagramaBD.png)
