@@ -30,7 +30,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](PNGs/DiagramaDeClasses.png)
+![Diagrama de Casos de Uso](PNGs/diagramaCU4.png)
 
 ## Descrição dos Casos de Uso
 
