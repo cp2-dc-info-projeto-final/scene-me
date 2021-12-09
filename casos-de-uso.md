@@ -5,7 +5,7 @@
  - [CDU 01](#CDU-01): Registrar-se.
  - [CDU 02](#CDU-02): Efetuar Login.
  - [CDU 03](#CDU-03): Efetuar Logout.
- - [CDU 04](#CDU-04): Customizar Perfil.
+ - [CDU 04](#CDU-04): Alterar Perfil.
  - [CDU 05](#CDU-05): Listar usuários (adm).
  - [CDU 06](#CDU-06): Editar usuário (adm).
  - [CDU 07](#CDU-07): Exclusão de usuário (adm).
@@ -24,12 +24,13 @@
 
 ## Lista dos Atores
 
+ - Visitante
  - Usuário
  - Adiministrador
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](PNGs/diagramaCU3.png)
+![Diagrama de Casos de Uso](PNGs/DiagramaDeClasses.png)
 
 ## Descrição dos Casos de Uso
 
@@ -39,9 +40,9 @@ Registrar-se
 
 **Fluxo Principal**
 
-1. O sistema apresenta um formulário de cadastro com os campos onde o usuário deve preencher.
-2. O usuário insere nome, email, senha e data de nascimento.
-3. O usuário clica no botão “Cadastrar”.
+1. O sistema apresenta um formulário de cadastro com os campos onde o visitante deve preencher.
+2. O visitante insere nome, email, senha e data de nascimento.
+3. O visitante clica no botão “Cadastrar”.
 4. O sistema armazena o usuário e o informa que a operação foi realizada.
 5. O sistema retorna o usuário para a página de login.
 
@@ -105,7 +106,7 @@ Efetuar Logout.
 
 ### CDU 04
 
-Customizar Perfil.
+Alterar Perfil.
 
 **Fluxo Principal**
 
