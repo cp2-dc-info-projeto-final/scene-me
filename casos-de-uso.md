@@ -19,8 +19,8 @@
  - [CDU 15](#CDU-15): Criar comentários.
  - [CDU 16](#CDU-16): Editar comentário.
  - [CDU 17](#CDU-17): Excluir comentário.
- - [CDU 18](#CDU-18): Exibir comentário na timeline do Usuário.
- - [CDU 19](#CDU-19): Reagir a posts e comentários.
+ - [CDU 18](#CDU-18): Exibir comentário na timeline.
+ - [CDU 19](#CDU-19): Reagir a posts.
 
 ## Lista dos Atores
 
@@ -366,7 +366,7 @@ Exibir Comentário na timeline.
 
 ### CDU 19
 
-Reagir a posts e comentários.
+Reagir a posts.
 
 **Fluxo Principal**
 
