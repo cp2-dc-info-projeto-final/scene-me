@@ -27,10 +27,6 @@ O que você está esperando? Venha se juntar a nós na comunidade do SceneMe!
 - [Casos de Uso](casos-de-uso.md)
 - [Apresentação](apresentacao.pdf)
 
-**Diagrama de Classes**
-
-![Diagrama de Classes](PNGs/DiagramaDeClasses.png)
-
 **Modelagem do Banco de Dados**
 
 ![Diagrama de Banco de Dados](PNGs/DiagramaBD.png)
