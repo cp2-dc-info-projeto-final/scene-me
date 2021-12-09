@@ -3,16 +3,22 @@
 Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colégio Pedro II - Campus Duque de Caxias
 
 **Integrantes:**
- - Felipe Marques Brandão
- - Rafael
+ - Felipe Marques
+ - Rafael Dávila
  - Carlos Willian
 
 ## Descrição do Projeto
 
 O projeto SceneMe é um site feito para amantes de filmes como nós! 
-O lugar perfeito para debater sobre os seus filmes favoritos, encontrar pessoas 
-com gostos similares aos seus e testar sua sabedoria de cada filme.
-O que você esta esperando? Venha se juntar a nós no SceneMe! 
+O lugar perfeito para debater sobre os seus filmes favoritos, descobrir 
+novos gostos, fazer novos amigos que compartilham os seus interesses e
+gostos e testar sua sabedoria de cada filme.
+
+A principal proposta do SceneMe é criar um ambiente que receba de braços abertos
+fãs de cinematografia, onde os usuários podem compartilhar suas opinões, debates, conversas
+sobre os seus tópicos de seus gêneros de filme e titulos fávoritos.
+
+O que você está esperando? Venha se juntar a nós na comunidade do SceneMe! 
 
 ## Documentação
 
@@ -23,7 +29,7 @@ O que você esta esperando? Venha se juntar a nós no SceneMe!
 
 **Diagrama de Classes**
 
-![Diagrama de Classes](diagrama-exemplo.png)
+![Diagrama de Classes](PNGs/DiagramaDeClasses.png)
 
 **Modelagem do Banco de Dados**
 
