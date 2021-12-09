@@ -1,6 +1,6 @@
 # Documento de Casos de Uso
 
-## Lista dos Casos de Uso (notas: 3/6/10/13/14/16/17/18/19 precisam ser terminados)
+## Lista dos Casos de Uso (notas: casos 11 a 19 precisam ser terminados)
 
  - [CDU 01](#CDU-01): Registrar-se.
  - [CDU 02](#CDU-02): Efetuar Login.
