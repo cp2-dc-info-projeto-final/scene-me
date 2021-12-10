@@ -1,6 +1,6 @@
 # Documento de Casos de Uso
 
-## Lista dos Casos de Uso (notas: casos 11 a 19 precisam ser terminados)
+## Lista dos Casos de Uso (notas: casos 18 precisam ser terminados)
 
  - [CDU 01](#CDU-01): Registrar-se.
  - [CDU 02](#CDU-02): Efetuar Login.
@@ -266,15 +266,11 @@ Apagar posts.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um post feito pelo usuário na página principal.
-2. O usuário clica no botão “Editar post”.
-3. O usuário deseja apagar o seu própio post.
-4. O usuário clica no botão “Excluir”.
-5. O sistema armazena a nova m principal.
-
-**Fluxo Alternativo A**
-
-1. O sistema gina principal.
+1. O sistema apresenta a página principal.
+2. O usuário entra na timeline do seu perfil.
+3. O usuário escolhe o post que ele deseja apagar.
+4. O usuário clica no botão “Deletar”.
+5. O sistema remove o post da página principal.
 
 ### CDU 14
 
@@ -282,15 +278,9 @@ Exibir timeline do usuário.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um post feito pelo usuário na página principal.
-2. O usuário clica no botão “Editar post”.
-3. O usuário escrevedeseja passar.
-4. O usuário”.
-5. O sistema armazena a nova m principal.
-
-**Fluxo Alternativo A**
-
-1. O sistema gina principal.
+1. O sistema apresenta a página principal.
+2. O usuário entra na timeline do seu perfil.
+3. O usuário tem acesso a todos os seus posts e comentários.
 
 ### CDU 15
 
@@ -300,15 +290,8 @@ Criar comentários.
 
 1. O sistema apresenta um post na página principal.
 2. O usuário clica na text box abaixo do post e escreve uma mensagem.
-3. O usuário clica no botão “comentar”.
+3. O usuário clica no botão “Comentar”.
 4. O sistema armazena a mensagem e a exibe abaixo do post.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um post na página principal.
-2. O usuário clica na text box abaixo do post e escreve uma mensagem.
-3. O usuário decide não criar mais o comentário e clica no botão “descartar comentário”.
-4. O sistema apaga o esboço da mensagem.
 
 ### CDU 16
 
@@ -317,18 +300,10 @@ Editar comentário.
 **Fluxo Principal**
 
 1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
-2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
+2. O usuário clica no botão “Editar” ao lado de seu comentário.
 3. O usuário altera a mensagem do comentário.
-4. O usuário clica no botão “comentar”
+4. O usuário clica no botão “Atualizar”
 5. O sistema armazena a nova mensagem e a exibe abaixo do post.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
-2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usário decide que não deseja fazer alterações no comentário 
-4. O usuário clica no botão “cancelar”.
-5. O sistema cancela o procediemento de edição e o comentário continua o mesmo.
 
 ### CDU 17
 
@@ -337,16 +312,9 @@ Excluir comentário.
 **Fluxo Principal**
 
 1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
-2. O usuário clica no botão “editar comentario” ao lado de seu comentário.
-3. O usuário deicde apagar o seu comentário.
-4. O usuário clica no botão “Excluir”
-5. O sistema exclui o comentário do post.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um post com um comentário feito por um usuário na página principal.
-2. O adiministrador clica no botão “excluir” ao lado do comentário.
-3. O sistema exclui o comentário do post.
+2. 3. O usuário deicde apagar o seu comentário.
+3. O usuário clica no botão “Deletar” ao lado de seu comentário.
+4. O sistema exclui o comentário do post.
 
 ### CDU 18
 
