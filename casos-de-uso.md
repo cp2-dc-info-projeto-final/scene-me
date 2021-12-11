@@ -322,15 +322,9 @@ Exibir Comentário na timeline.
 
 **Fluxo Principal**
 
-1. O sistema apresenta um post com um comentário feito por um usuário na página principal.
-2. O usuário usa o scroll do mouse para ver 
-3. O usuário altera a mensagem do comentário.
-4. O usuário clica no botão “comentar”
-5. O sistema armazena a nova mensagem e a exibe abaixo do post.
-
-**Fluxo Alternativo A**
-
-1. O sistema apresenta um post com um comentário feito pelo usuário na página principal.
+1. O sistema apresenta a página principal.
+2. O usuário entra na timeline do seu perfil.
+3. O usuário tem acesso a todos os seus posts e comentários.
 
 
 ### CDU 19
