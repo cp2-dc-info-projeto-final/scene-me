@@ -41,7 +41,7 @@ imagem a cima, logo depois ele clica no botão “Enviar” e seu post está pub
 (PNGs/Exemplo.png)
 
 Agora que você criou um post, você e outros usuários podem deixar comentários nele, simplesmente escreva a mensagem na text box abaixo do post e clique no
-botão “Comentar”, você tambem pode clicar no rolo de filme para deixar um like como na imagem a cima.
+botão “Comentar”, você tambem pode clicar no claquete para deixar um like como na imagem a cima.
 
 (PNGs/Exemplo.png)
 
