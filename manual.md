@@ -25,9 +25,11 @@ e usar as suas funções.
 
 (PNGs/Exemplo.png)
 
-O usuário que já possui uma conta pode fazer login no site e ter acesso a todas as suãs funções, ele deve clicar no botão “Já tem uma conta?”,
-que o leva para uma página onde ele deve preencher o seu email e senha como na imagem a cima. Logo depois clique no botão “Entrar” e você
-tera entrado no site com a sua conta com sucesso.
+O usuário que já possui uma conta pode fazer login no site e ter acesso a todas as suãs funções, ele deve clicar no botão “Já tem uma conta?”, que
+o leva para uma página onde ele deve preencher o seu email e senha como na imagem a cima. Logo depois clique no botão “Entrar” e 
+você tera entrado no site com a sua conta com sucesso.
+
+O usuário pode a qualquer momento trocar de perfil usando o botão “Sair”, levando o para a página de login para se conectar a outra conta.
 
 ## Funcionalidade de Post
 
