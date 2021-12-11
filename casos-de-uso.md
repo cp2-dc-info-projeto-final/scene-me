@@ -334,14 +334,14 @@ Reagir a posts.
 **Fluxo Principal**
 
 1. O sistema apresenta um post na página principal.
-2. O usuário decide adicionar uma reação ao post.
+2. O usuário decide adicionar uma reação ao post ou a um comentário.
 3. O usuário clica no botão “like”.
 4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um post na página principal.
-2. O usuário decide adicionar uma reação ao post.
+2. O usuário decide adicionar uma reação ao post ou a um comentário.
 3. O usuário clica no botão “like”.
 4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
 5. O usuário muda de idea e dicide remover a sua reação ao post.
