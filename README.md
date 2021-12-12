@@ -21,10 +21,10 @@ sobre os seus tópicos de seus gêneros de filme e titulos fávoritos.
 O que você está esperando? Venha se juntar a nós na comunidade do SceneMe! 
 
 ## Informações de Moderador para testes
-# Nome: AfonsoFonseca
-# Senha: Pernambuco123
-# Email: afonseca@gmail.com
-# Data de nascimento: 23/03/2001
+Nome: AfonsoFonseca
+Senha: Pernambuco123
+Email: afonseca@gmail.com
+Data de nascimento: 23/03/2001
 
 ## Versões dos softwares
 # PHP: 8.0.13 | MySQL: 10.4.22 | Apache: 2.4.51 | PhpMyAdmin: 5.1.1
