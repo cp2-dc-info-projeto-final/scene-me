@@ -26,8 +26,8 @@ Senha: Pernambuco123
 Email: afonseca@gmail.com
 Data de nascimento: 23/03/2001
 
-## Versões dos softwares
-# PHP: 8.0.13 | MySQL: 10.4.22 | Apache: 2.4.51 | PhpMyAdmin: 5.1.1
+# Versões dos softwares
+## PHP: 8.0.13 | MySQL: 10.4.22 | Apache: 2.4.51 | PhpMyAdmin: 5.1.1
 
 ## Documentação
 
