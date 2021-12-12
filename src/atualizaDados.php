@@ -16,7 +16,7 @@
     $senhaPCript = $res[0];
     if(password_verify($senhaA, $senhaPCript) == true)
     {
-        $jorge = "UPDATE userdados SET nome = '$nome', dataNasc = '$dataNasc', email = '$email', senha = '$senha' WHERE senha = '$senhaPCript' AND email = '$emailA'";
+        $jorge = "UPDATE userdados SET nome = '$nome', dataNasc = '$dataNasc', email = '$email', senha = '$senha_cript' WHERE senha = '$senhaPCript' AND email = '$emailA'";
         mysqli_query($conexao, $jorge);
         session_destroy();
         header('location: login.php');
