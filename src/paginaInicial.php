@@ -14,6 +14,7 @@ else
 
 <html>
     <head>
+<meta charset="UTF-8"/>
         <style>
             .claquete
             {
