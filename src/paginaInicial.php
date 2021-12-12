@@ -155,7 +155,7 @@ else
 
             $curtidaControle = 0;
 
-            $totalCurtidas = -1;
+            $totalCurtidas = 0;
 
 
             for($g=0; $g < $linhasCurVer; $g++)
