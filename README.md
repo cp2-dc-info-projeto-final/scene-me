@@ -22,8 +22,11 @@ O que você está esperando? Venha se juntar a nós na comunidade do SceneMe!
 
 ## Informações de Moderador para testes
 Nome: AfonsoFonseca
+
 Senha: Pernambuco123
+
 Email: afonseca@gmail.com
+
 Data de nascimento: 23/03/2001
 
 # Versões dos softwares
