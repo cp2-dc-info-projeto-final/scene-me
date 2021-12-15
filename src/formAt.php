@@ -41,12 +41,16 @@
                                             $res = mysqli_query($conexao,$sql);
                                             $linhas = mysqli_num_rows($res);
 
+                                            $sql2 = "SELECT nome FROM userdados WHERE nome LIKE '%".$x."%' ";
+                                            $res2 = mysqli_query($conexao,$sql);
+
                                             for($i=0; $i < $linhas; $i++)
                                             {
+                                                $usuario2 = mysqli_fetch_array($res2);
                                                 $usuario = mysqli_fetch_array($res);
 
                                                 echo "<tr>";
-                                                echo "<td>".$usuario["nome"]."</td>";
+                                                echo "<td>".$usuario2["nome"]."</td>";
                                                 echo "<td>";
                                                 echo "<button class='btn'><a href='postagensZ.php?nome=".$usuario["id"]."' class='text-light'>Visualizar</a></button>";
                                                 echo "</div>";
