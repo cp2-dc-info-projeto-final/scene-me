@@ -57,8 +57,6 @@ else
             <a id="bb" class="bb" style="display: <?php echo $adm ?>;" href="dashboardAdm.php" target="_blank" onclick="window.open(this.href, this.target, 'width=754,height=479'); return false;">Admin Dashboard</a>
             </div>    
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-
-
             <div class="collapse navbar-collapse busca" id="busca">
                 <form class="form-inline my-8 my-lg-2" method="POST" action="formAt.php">
                     <input class="form-control mr-sm-4 busca" type="search" placeholder="Search" aria-label="Search" name="busc">
