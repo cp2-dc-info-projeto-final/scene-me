@@ -37,7 +37,7 @@ Data de nascimento: 23/03/2001
 - [Manual do Usuário](manual.md)
 - [Requisitos](requisitos.md)
 - [Casos de Uso](casos-de-uso.md)
-- [Apresentação](apresentacao.pdf)
+- [Apresentação](https://github.com/cp2-dc-info-projeto-final/scene-me/blob/main/apresenta%C3%A7%C3%A3o.pdf)
 
 **Modelagem do Banco de Dados**
 
