@@ -18,8 +18,14 @@
 
         $jorge = "UPDATE userdados SET nome = '$nome', dataNasc = '$dataNasc', email = '$email', senha = '$senha_cript', adm = '$adm' WHERE email = '$emailA'";
         mysqli_query($conexao, $jorge);
-        session_destroy();
-        header('Location: dashboardAdm.php');
-
+        if($_SESSION['email'] == $emailA)
+        {
+            session_destroy();
+            header('Location: login.php');
+        }
+        else
+        {
+            header('Location: dashboardAdm.php');
+        }
 
 ?>
