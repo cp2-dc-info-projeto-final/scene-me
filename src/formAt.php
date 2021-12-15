@@ -37,7 +37,7 @@
                                             include 'conecta.php';
                                             include 'autentica.php';
 
-                                            $sql = "SELECT nome FROM userdados WHERE nome LIKE '%".$x."%' ";
+                                            $sql = "SELECT id FROM userdados WHERE nome LIKE '%".$x."%' ";
                                             $res = mysqli_query($conexao,$sql);
                                             $linhas = mysqli_num_rows($res);
 
@@ -48,7 +48,7 @@
                                                 echo "<tr>";
                                                 echo "<td>".$usuario["nome"]."</td>";
                                                 echo "<td>";
-                                                echo "<button class='btn'><a href='postagensZ.php?nome=".$usuario["nome"]."' class='text-light'>Visualizar</a></button>";
+                                                echo "<button class='btn'><a href='postagensZ.php?nome=".$usuario["id"]."' class='text-light'>Visualizar</a></button>";
                                                 echo "</div>";
                                                 echo "</td>";
                                                 echo "</tr>";
