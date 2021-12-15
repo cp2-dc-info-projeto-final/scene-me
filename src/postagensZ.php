@@ -133,7 +133,7 @@
     </div>
     <?php                        
         
-        $sql = "SELECT * FROM postagens WHERE usuario = '$id'";
+        $sql = "SELECT * FROM postagens WHERE id = '$id'";
         $res = mysqli_query($conexao,$sql);
         $linhas = mysqli_num_rows($res);
 
