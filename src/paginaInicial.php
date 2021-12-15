@@ -155,7 +155,7 @@ else
 
             $curtidaControle = 0;
 
-            $totalCurtidas = -1;
+            $totalCurtidas = 0;
 
 
             for($g=0; $g < $linhasCurVer; $g++)
@@ -277,7 +277,7 @@ else
                         echo "<p>".$totalComCurtidas."</p>";
                         echo "<button class='claquete' type='submit' name='curtir' id='curtirComButton'>👍</button>";
                         echo "<input type='hidden' name='curtir' value='sim'></input>";
-                        echo "<input type='hidden' name='idCurtida' value='".$autores["autor"]."'></input>";
+                        echo "<input type='hidden' name='idCurtida' value='".$ids["0"]."'></input>";
                         echo "<input type='submit' style='display:none;'></input>";
                         echo "</form>";
                     }
@@ -287,7 +287,7 @@ else
                         echo "<p>".$totalCurtidas."</p>";
                         echo "<button type='submit' class='claqueteCurtido' name='curtir' id='curtirComButton'>👍</button>";
                         echo "<input type='hidden' name='curtir' value='nao'></input>";
-                        echo "<input type='hidden' name='idCurtida' value='".$autores["autor"]."'></input>";
+                        echo "<input type='hidden' name='idCurtida' value='".$ids["0"]."'></input>";
                         echo "<input type='submit' style='display:none;'></input>";
                         echo "</form>";
                     }
@@ -431,4 +431,4 @@ else
     {
         x.classList.toggle("claqueteCurtido");
     }
-</script>
+</script>   
