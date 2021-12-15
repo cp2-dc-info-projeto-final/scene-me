@@ -41,4 +41,4 @@ Data de nascimento: 23/03/2001
 
 **Modelagem do Banco de Dados**
 
-![Diagrama de Banco de Dados](PNGs/DiagramaBD.png)
+![Diagrama de Banco de Dados](PNGs/DiagramaBD2.png)
