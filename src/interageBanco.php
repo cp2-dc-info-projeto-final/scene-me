@@ -13,7 +13,7 @@ if($res)
     $jorge = "UPDATE comentarios SET conteudo = '$conteudo' WHERE id = '$id';";
     mysqli_query($conexao, $jorge);
 
-    echo "<br>A postagem foi atualizada com sucesso!";
+    header("Location: paginaInicial.php");
 } 
 
 else
