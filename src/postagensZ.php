@@ -112,9 +112,9 @@
                         <a class="nav-link" style="display:<?php echo $adm ?>;" href="dashboardAdm.php" target="_blank" onclick="window.open(this.href, this.target, 'width=754,height=479'); return false;">Admin Dashboard</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0" style="float: right;" >
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <form method="POST" class="form-inline my-2 my-lg-0" style="float: right;" action="formAt.php" >
+                    <input name="busc" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
             </div>
         </nav>
