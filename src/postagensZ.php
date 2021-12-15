@@ -3,6 +3,15 @@
     include 'conecta.php';
     include 'autentica.php';
     $id = $_GET['nome'];
+
+    if($_SESSION["adm"] == 1)
+    {
+        $adm = "block";
+    }
+    else
+    {
+        $adm = "none";
+    }
 ?> 
 
 <meta charset="UTF-8"/>
@@ -111,6 +120,7 @@
                     <li class="nav-item">
                         <a class="nav-link" style="display:<?php echo $adm ?>;" href="dashboardAdm.php" target="_blank" onclick="window.open(this.href, this.target, 'width=754,height=479'); return false;">Admin Dashboard</a>
                     </li>
+                     <button type="button" class="btn btn-warning" style="display: <?php echo $adm ?>;" id="bb" value="Dashboard" style="bb" name="dashboard">
                 </ul>
                 <form method="POST" class="form-inline my-2 my-lg-0" style="float: right;" action="formAt.php" >
                     <input name="busc" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
