@@ -16,11 +16,10 @@
     $res = mysqli_fetch_array($login);
     $senhaPCript = $res[0];
 
-        $jorge = "UPDATE userdados SET nome = '$nome', dataNasc = '$dataNasc', email = '$email', senha = '$senha' WHERE email = '$emailA'";
+        $jorge = "UPDATE userdados SET nome = '$nome', dataNasc = '$dataNasc', email = '$email', senha = '$senha', adm = '$adm' WHERE email = '$emailA'";
         mysqli_query($conexao, $jorge);
         session_destroy();
-        echo "Acho que atualizou";
-        echo "n atualizou";
+        header('Location: paginaInicial.php');
 
 
 ?>
