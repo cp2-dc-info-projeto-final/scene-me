@@ -73,7 +73,7 @@ else{ $g="nao";}
                 <input type="date" class="form-control justify-content-center" name="dataNasc" >
             </div>
             <div class="col-4 offset-md-4 align-items-center mt-4" >
-                <button type="submit" id="enviarB" class="btn btn-dark" style="display:none; position: absolute; z-index: 4; ">Cadastrar</button><a class="btn btn-dark invi" href="login.php" role="button" id="rest" style="display:block; position: absolute; top: 490px; left:56%; z-index: 5; " >Já tem uma conta?</a>                  
+                <button type="submit" id="enviarB" class="btn btn-dark" style="display:none; position: absolute; z-index: 4; ">Cadastrar</button><a class="btn btn-dark invi" href="login.php" role="button" id="rest" style="display:block; position: absolute; top: 490px; left:56%; z-index: 5; " >Acessar a minha conta</a>                  
             </div>
           </form>
         <button class="btn btn-dark" id="validacao" style="display:block; position: absolute; top: 490px; left: 476px; z-index: 5; ">Validar</button>
