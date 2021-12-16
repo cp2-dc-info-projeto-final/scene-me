@@ -70,7 +70,7 @@ else{ $g="nao";}
             </div>
             <div class="col-4 offset-md-4 align-items-center">
                 <label for="dataNasc" class="form-label justify-content-center"><i class="bi bi-calendar-date"></i></label>
-                <input type="date" class="form-control justify-content-center" name="dataNasc" >
+                <input id="dataNasc" type="date" class="form-control justify-content-center" name="dataNasc" >
             </div>
             <div class="col-4 offset-md-4 align-items-center mt-4" >
                 <button type="submit" id="enviarB" class="btn btn-dark" style="display:none; position: absolute; z-index: 4; ">Cadastrar</button><a class="btn btn-dark invi" href="login.php" role="button" id="rest" style="display:block; position: absolute; top: 490px; left:56%; z-index: 5; " >Acessar a minha conta</a>                  
@@ -152,7 +152,7 @@ else{ $g="nao";}
         }
 
         if(senhaLabel.length < 5)
-        {
+        {   
             controle++;
             alert("A senha fornecida é curta demais");
         }
