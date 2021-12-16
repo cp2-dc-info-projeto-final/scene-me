@@ -77,7 +77,7 @@ exemplo a cima.
 ![Dashboard](PNGs/printDash.png)
 
 O trabalho de um adiministrador é moderar as atividades dos usuários e reforçar as regras do site. Para os adiministradores fazerem as suas
-tarefas, eles usam a ferramenta Adimin dashboard do site. Para a acessar é preciso clicar no botão de mais opções e clicar em adimin dashboard como na imagem a cima.
+tarefas, eles usam a ferramenta Adimin dashboard do site. Para a acessar é preciso clicar no botão “Admin dashboard” como na imagem a cima.
 
 Nessa página o adiministrador tem fácil acesso a todos os usuários, agilizando o seu trabalho de moderação.
 
