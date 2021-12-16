@@ -11,6 +11,11 @@ que irão usa-lo.
  - [Funcionalidade de Busca](#Funcionalidade-de-Busca)
  - [Funcionalidade de Perfil](#Funcionalidade-de-Perfil)
 
+**Lista das Funcionalidades de adiministrador:**
+
+- [Funcionalidade de Dashboard](#Funcionalidade-de-Dashboard)
+- [Funcionalidade de atualização de Usuário](#Funcionalidade-de-atualização-de-Usuário)
+
 ## Funcionalidade de Cadastro
 
 ![Cadastro](PNGs/print1.png)
@@ -66,3 +71,21 @@ timeline, onde você pode ver os posts que você fez nop site, como pode ver no 
 
 E alterando os dados você pode mudar os detalhes de sua conta, como email e senha por exemplo, altere os dados e clique no botão “Atualizar” como no
 exemplo a cima.
+
+## Funcionalidade de Dashboard
+
+![Dashboard](PNGs/printDash.png)
+
+O trabalho de um adiministrador é moderar as atividades dos usuários e reforçar as regras do site. Para os adiministradores fazerem as suas
+tarefas, eles usam a ferramenta Adimin dashboard do site. Para a acessar é preciso clicar no botão de mais opções e clicar em adimin dashboard como na imagem a cima.
+
+Nessa página o adiministrador tem fácil acesso a todos os usuários, agilizando o seu trabalho de moderação.
+
+## Funcionalidade de atualização de Usuário
+
+![ADM](PNGs/printADM.png)
+
+Se um usuário fizer algum post ou comentário que quebre as regras do site, ou precisar de alterações em suas contas é o trabalho do adiministrador 
+resolver o problema de forma adequada.
+
+Os adiminstradores podem alterar ou excluir os perfis de usuários como demonstrado na imagem a cima.
