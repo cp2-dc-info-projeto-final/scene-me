@@ -41,7 +41,7 @@
                                             $res = mysqli_query($conexao,$sql);
                                             $linhas = mysqli_num_rows($res);
 
-                                            $sql2 = "SELECT nome FROM userdados WHERE nome LIKE '%".$x."%' ";
+                                            $sql2 = "SELECT * FROM userdados WHERE nome LIKE '%".$x."%' ";
                                             $res2 = mysqli_query($conexao,$sql);
 
                                             for($i=0; $i < $linhas; $i++)
