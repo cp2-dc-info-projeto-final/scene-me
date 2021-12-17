@@ -2,25 +2,25 @@
 
 ## Lista dos Casos de Uso (notas: casos 18 precisam ser terminados)
 
- - [CDU 01](#Registrar-se): Registrar-se.
- - [CDU 02](#CDU-02): Efetuar Login.
- - [CDU 03](#CDU-03): Efetuar Logout.
- - [CDU 04](#CDU-04): Alterar Perfil.
- - [CDU 05](#CDU-05): Listar usuários (adm).
- - [CDU 06](#CDU-06): Editar usuário (adm).
- - [CDU 07](#CDU-07): Exclusão de usuário (adm).
- - [CDU 08](#CDU-08): Conceder privilégios de adiministrador (adm).
- - [CDU 09](#CDU-09): Retirar privilégios de adiministrador (adm).
- - [CDU 10](#CDU-10): Busca de usuário por palavra chave.
- - [CDU 11](#CDU-11): Criar Posts.
- - [CDU 12](#CDU-12): Editar Posts.
- - [CDU 13](#CDU-13): Apagar Posts.
- - [CDU 14](#CDU-14): Exibir timeline do Usuário.
- - [CDU 15](#CDU-15): Criar comentários.
- - [CDU 16](#CDU-16): Editar comentário.
- - [CDU 17](#CDU-17): Excluir comentário.
- - [CDU 18](#CDU-18): Exibir comentário na timeline.
- - [CDU 19](#CDU-19): Reagir a posts.
+ - [Registrar-se](#Registrar-se): Registrar no site.
+ - [Efetuar Login](#Efetuar-Login): Entrar no site com a sua conta.
+ - [Efetuar Logout](#Efetuar-Logout): Desvincular a sua conta ao site.
+ - [Alterar Perfil](#Alterar-Perfil): Alterar os dados do seu perfil.
+ - [Listar usuários (adm)](#Listar-usuários-(adm)): Acessar a lista de usuários de administrador.
+ - [Editar usuário (adm)](#Editar-usuário-(adm)): Editar os dados de um usuário.
+ - [Exclusão de usuário (adm)](#Exclusão-de-usuário-(adm)): Exclusão a conta de usuário.
+ - [Conceder privilégios de adiministrador (adm)](#Conceder-privilégios-de-adiministrador-(adm)): Conceder privilégios de adiministrador a um usuário.
+ - [Retirar privilégios de adiministrador (adm)](#Retirar-privilégios-de-adiministrador-(adm)): Retirar privilégios de adiministrador de um usuário.
+ - [Busca de usuário por palavra chave](#Busca-de-usuário-por-palavra-chave): Buscar o nome de um usuário na barra de pesquisa.
+ - [Criar Posts](#Criar-Posts): Criar posts na página principal do site.
+ - [Editar Posts](#Editar-Posts): Editar posts feitos pelo usuário.
+ - [Apagar Posts](#Apagar-Posts): Apagar posts feitos pelo usuário.
+ - [Exibir timeline do Usuário](#Exibir-timeline-do-Usuário): Ver a linha do tempo de atividade de um usuário.
+ - [Criar comentários](#Criar-comentários): Criar comentários em posts.
+ - [Editar comentário](#Editar-comentário): Editar comentário feitos em posts.
+ - [Excluir comentário](#Excluir-comentário): Excluir comentário feito pelo usuário.
+ - [Exibir comentário na timeline](#Exibir-comentário-na-timeline): Exibir comentário na timeline do usuário.
+ - [Reagir a posts/comentários](#Reagir-a-posts/comentários): Deixar uma reação positiva a um post ou comentário.
 
 ## Lista dos Atores
 
@@ -34,9 +34,9 @@
 
 ## Descrição dos Casos de Uso
 
-### CDU 01
+### Registrar-se
 
-Registrar-se
+Registrar no site.
 
 **Fluxo Principal**
 
@@ -68,9 +68,9 @@ Registrar-se
 7. O sistema armazena o usuário e o informa que a operação foi realizada.
 8. O sistema retorna o usuário para a página de login.
 
-### CDU 02
+### Efetuar Login
 
-Efetuar Login.
+Entrar no site com a sua conta.
 
 **Fluxo Principal**
 
@@ -93,9 +93,9 @@ Efetuar Login.
 8. O usuário clica no botão “Entrar”.
 9. O sistema reconhece uma conta com o mesmo email e senha e leva o usuário para a página principal.
 
-### CDU 03
+### Efetuar Logout
 
-Efetuar Logout.
+Desvincular a sua conta ao site.
 
 **Fluxo Principal**
 
@@ -104,9 +104,9 @@ Efetuar Logout.
 3. O usuário clica no botão “Sair”.
 4. O sistema desconecta a conta do usuário e o leva para a página de login.
 
-### CDU 04
+### Alterar Perfil
 
-Alterar Perfil.
+Alterar os dados do seu perfil.
 
 **Fluxo Principal**
 
@@ -141,9 +141,9 @@ Alterar Perfil.
 8. O usuário clica no botão “Atualizar”.
 9. O sistema altera as informações do usuário e o informa que a operação foi realizada.
 
-### CDU 05
+### Listar usuários (adm)
 
-Listar usuários (adm).
+Acessar a lista de usuários de administrador.
 
 **Fluxo Principal**
 
@@ -152,9 +152,9 @@ Listar usuários (adm).
 3. O sistema abre a jenela de adiministração.
 4. O adiministrador têm na janela, acesso a uma lista contendo todos os dados de todos os usuários do site.
 
-### CDU 06
+### Editar usuário (adm)
 
-Editar usuário (Adm).
+Editar os dados de um usuário.
 
 **Fluxo Principal**
 
@@ -166,9 +166,9 @@ Editar usuário (Adm).
 6. O adiministrador clica no botão “Atualizar”
 7. O sistema altera as informações do usuário escolhido.
 
-### CDU 07
+### Exclusão de usuário (adm)
 
-Exclusão de usuário (adm).
+Exclusão a conta de usuário.
 
 **Fluxo Principal**
 
@@ -179,9 +179,9 @@ Exclusão de usuário (adm).
 5. O adiministrador clica no usuário e no botão “Deletar” ao lado do usuário escolhido.
 6. O sistema apaga o cadastro do usuário escolhido.
 
-### CDU 08
+### Conceder privilégios de adiministrador (adm)
 
-Conceder privilégios de adiministrador (adm).
+Conceder privilégios de adiministrador a um usuário.
 
 **Fluxo Principal**
 
@@ -193,9 +193,9 @@ Conceder privilégios de adiministrador (adm).
 6. O adiministrador concede privlégios de adiministrador ao usuário.
 7. O sistema aplica os privilégios de adiministrador ao usuário escolhido.
 
-### CDU 09
+### Retirar privilégios de adiministrador (adm)
 
-Retirar privilégios de adiministrador (adm).
+Retirar privilégios de adiministrador de um usuário.
 
 **Fluxo Principal** 
 
@@ -207,9 +207,9 @@ Retirar privilégios de adiministrador (adm).
 6. O adiministrador retira os privlégios de adiministrador do usuário.
 7. O sistema remove os privilégios de adiministrador do usuário escolhido.
 
-### CDU 10
+### Busca de usuário por palavra chave
 
-Busca de usuário por palavra chave.
+Buscar o nome de um usuário na barra de pesquisa.
 
 **Fluxo Principal**
 
@@ -228,9 +228,9 @@ Busca de usuário por palavra chave.
 5. O usuário clica no botão “Buscar Usuário”.
 6. O sistema apresenta uma lista de usuários com nomes similares ao digitado.
 
-### CDU 11
+### Criar Posts
 
-Criar posts.
+Criar posts na página principal do site.
 
 **Fluxo Principal**
 
@@ -248,9 +248,9 @@ Criar posts.
 4. O usuário clica no botão “Fechar”.
 5. O sistema fecha a janela de criação de post.
 
-### CDU 12
+### Editar Posts
 
-Editar posts.
+Editar posts feitos pelo usuário.
 
 **Fluxo Principal**
 
@@ -260,9 +260,9 @@ Editar posts.
 4. O usuário clica no botão “Atualizar”.
 5. O sistema armazena a nova mensagem e a exibe na página principal.
 
-### CDU 13
+### Apagar Posts
 
-Apagar posts.
+Apagar posts feitos pelo usuário.
 
 **Fluxo Principal**
 
@@ -272,9 +272,9 @@ Apagar posts.
 4. O usuário clica no botão “Deletar”.
 5. O sistema remove o post da página principal.
 
-### CDU 14
+### Exibir timeline do Usuário
 
-Exibir timeline do usuário.
+Ver a linha do tempo de atividade de um usuário.
 
 **Fluxo Principal**
 
@@ -282,9 +282,9 @@ Exibir timeline do usuário.
 2. O usuário entra na timeline do seu perfil.
 3. O usuário tem acesso a todos os seus posts e comentários.
 
-### CDU 15
+### Criar comentários
 
-Criar comentários.
+Criar comentários em posts.
 
 **Fluxo Principal**
 
@@ -293,9 +293,9 @@ Criar comentários.
 3. O usuário clica no botão “Comentar”.
 4. O sistema armazena a mensagem e a exibe abaixo do post.
 
-### CDU 16
+### Editar comentário
 
-Editar comentário.
+Editar comentário feitos em posts.
 
 **Fluxo Principal**
 
@@ -305,9 +305,9 @@ Editar comentário.
 4. O usuário clica no botão “Atualizar”
 5. O sistema armazena a nova mensagem e a exibe abaixo do post.
 
-### CDU 17
+### Excluir comentário
 
-Excluir comentário.
+Excluir comentário feito pelo usuário.
 
 **Fluxo Principal**
 
@@ -316,9 +316,9 @@ Excluir comentário.
 3. O usuário clica no botão “Deletar” ao lado de seu comentário.
 4. O sistema exclui o comentário do post.
 
-### CDU 18
+### Exibir Comentário na timeline
 
-Exibir Comentário na timeline.
+Exibir comentário na timeline do usuário.
 
 **Fluxo Principal**
 
@@ -327,23 +327,23 @@ Exibir Comentário na timeline.
 3. O usuário tem acesso a todos os seus posts e comentários.
 
 
-### CDU 19
+### Reagir a posts/comentários
 
-Reagir a posts.
+Deixar uma reação positiva a um post ou comentário.
 
 **Fluxo Principal**
 
 1. O sistema apresenta um post na página principal.
 2. O usuário decide adicionar uma reação ao post ou a um comentário.
 3. O usuário clica no botão “like”.
-4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post/comentário.
 
 **Fluxo Alternativo A**
 
 1. O sistema apresenta um post na página principal.
 2. O usuário decide adicionar uma reação ao post ou a um comentário.
 3. O usuário clica no botão “like”.
-4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
-5. O usuário muda de idea e dicide remover a sua reação ao post.
+4. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post/comentário.
+5. O usuário muda de idea e dicide remover a sua reação ao post/comentário.
 6. O usuário clica no botão “like”.
-7. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post.
+7. O sistema armazena o input e exibe abaixo do post a quantidade de likes presentes no post/comentário.
