@@ -2,7 +2,7 @@
 
 ## Lista dos Casos de Uso (notas: casos 18 precisam ser terminados)
 
- - [CDU 01](#CDU-01): Registrar-se.
+ - [CDU 01](#Registrar-se): Registrar-se.
  - [CDU 02](#CDU-02): Efetuar Login.
  - [CDU 03](#CDU-03): Efetuar Logout.
  - [CDU 04](#CDU-04): Alterar Perfil.
