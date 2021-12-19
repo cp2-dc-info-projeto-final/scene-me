@@ -2,7 +2,19 @@
     
     include 'conecta.php';
     include 'autentica.php';
+
     $id = $_GET['nome'];
+    $nomeId = mysqli_query($conexao, "SELECT nome FROM userdados WHERE id = '$id'");
+    $nomeArray = mysqli_fetch_array($nomeId);
+
+    if($_SESSION["adm"] == 1)
+    {
+        $adm = "block";
+    }
+    else
+    {
+        $adm = "none";
+    }
 ?> 
 
 <meta charset="UTF-8"/>
@@ -29,7 +41,7 @@
 
         
         body{
-            background: linear-gradient( to bottom,#f5c936 40%,#A88926 ,black);
+            background: #d8ac28;
 
         }
         .divAjusta{
@@ -100,7 +112,7 @@
                         <a class="nav-link" href="paginaInicial.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="postagensZ.php?nome=<?php echo $_SESSION['nome']?>">Perfil</a>
+                        <a class="nav-link" href="postagensZ.php?nome=<?php echo $id; ?>">Perfil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="attUser.php">Alterar Dados</a>
@@ -112,9 +124,9 @@
                         <a class="nav-link" style="display:<?php echo $adm ?>;" href="dashboardAdm.php" target="_blank" onclick="window.open(this.href, this.target, 'width=754,height=479'); return false;">Admin Dashboard</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0" style="float: right;" >
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <form method="POST" class="form-inline my-2 my-lg-0" style="float: right;" action="formAt.php" >
+                    <input name="busc" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
             </div>
         </nav>
@@ -122,10 +134,19 @@
     <div>
     </div>
     <?php                        
-        
+        $yu = $nomeArray[0];
         $sql = "SELECT * FROM postagens WHERE usuario = '$id'";
         $res = mysqli_query($conexao,$sql);
         $linhas = mysqli_num_rows($res);
+
+
+
+        //id da sessão
+        $jukilop = $_SESSION['nome'];
+        $sqlS = "SELECT id FROM userdados WHERE nome = '$jukilop'";
+        $resS = mysqli_query($conexao,$sqlS);
+        $userS = mysqli_fetch_array($resS);
+
 
         if($linhas <= 0)
         {
@@ -135,6 +156,7 @@
         {
             for($i=0; $i < $linhas; $i++)
             {
+            
                 $kok = $_SESSION['adm'];
                 $user = mysqli_fetch_array($res);
                 echo "<div class='loroJose'>
@@ -142,24 +164,25 @@
                 <hr style='width=100%'>
                 <p class='conteudo'>".$user["conteudo"]."</p>
                 </div>"; 
-                if($user['usuario'] == $_SESSION['nome'])
+                if($user["usuario"] == $userS[0])
                 {
                     echo "<div class='btn-group'>";
-                    echo "<button style='position:relative;' class='button1'><a class='link' href='editarPost.php?nome=".$user['usuario']."&id=".$user["id"]."'>Editar</a></button>";
+                    echo "<button style='position:relative;' class='button1'><a class='link' href='editarPost.php?nome=".$user["usuario"]."&id=".$user["id"]."'>Editar</a></button>";
                  }    
-                if($kok == 1 || $user['usuario'] == $_SESSION['nome'])
+                if($kok == 1 || $user["usuario"] == $userS[0])
                 
                 {
-                        echo "<button style='position:relative;' class='button1' target='_blank'><a href='excluiPost.php?nome=".$user['usuario']."&id=".$user["id"]."' class='link'>Deletar</a></button>";
+                        echo "<button style='position:relative;' class='button1' target='_blank'><a href='excluiPost.php?nome=".$user["usuario"]."&id=".$user["id"]."' class='link'>Deletar</a></button>";
                         echo "</div>";
                         echo "<br>";
                         echo "<br>";
                 }
                 else{}
                     echo "</div>";
-                
+                    echo "<br><br>";                
                 
             }
+
         }
     ?>
 </body>
