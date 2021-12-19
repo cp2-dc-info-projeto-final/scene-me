@@ -1,0 +1,163 @@
+.loroJose
+{
+    box-shadow: rgb(255, 193, 7) 0px 0.0625em 0.0625em, rgb(255, 193, 7) 0px 0.125em 0.5em, rgb(255, 193, 7) 0px 0px 0px 1px inset;
+    width: 500px;
+    border-radius: 5%;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    padding: 10px;
+ 
+
+
+}
+
+
+.buscaJose
+{
+    position: relative;
+    top: 50%;
+    transform: translate(50, 0%);
+    
+} 
+
+.titulo
+{
+    font-size: 20px;
+    color:rgb(31, 30, 30);
+    font-family: Arial Black;
+    font-weight: 600;
+    /*text-shadow: #000 6px 7px 6px;*/
+    
+}
+.conteudo
+{
+    font-size: 15px;
+    font-family: Calibri;
+    
+}
+.claquete
+{
+    font-size: 20px;
+    border:none;
+    background:none;
+
+   
+}
+
+.claqueteCurtido
+{
+    font-size: 20px;
+    flood-color: blue;
+    color: blue;
+    border:none;
+    background:none;
+}
+.link
+{
+    color:#ffc107;
+    font-family:Arial;
+    font-size:12px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:2px 1px 4px #d8ac28;
+}
+body{
+    background:#d8ac28 ;
+    background-size: cover;
+  
+}
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+} 
+.button1
+{
+    box-shadow: 2px 0px px 1px #ffc107;
+    background-color:#000000;
+    border-radius:8px;
+    border:2px solid #ffc107;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffc107;
+    font-family:Arial;
+    padding:2px 2px;
+    text-decoration:none;
+    text-shadow:2px 1px 4px #ffc107;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.busca{
+    position: fixed;
+    top:0;
+    right: 0;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.secs
+{
+    display: none;
+    padding-top: 1px;
+    height: 400px;
+    width: 600px;
+    margin: 20px auto;
+    background: #ccc;
+    box-shadow: 0 0 3px #000;
+}
+.post{
+
+
+    position: relative;
+    left: 10px;
+}
+.cria{
+
+
+    position: relative;
+    right: 400px;
+    border-radius: 10%;
+    text-align: center;
+    color: black;
+}
