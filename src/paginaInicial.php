@@ -1,6 +1,10 @@
 <?php
 include 'conecta.php';                      
 include 'autentica.php';
+$hyu = $_SESSION["nome"];
+$nomeId = mysqli_query($conexao, "SELECT id FROM userdados WHERE nome = '$hyu'");
+    $nomeArray = mysqli_fetch_array($nomeId);
+    
 if($_SESSION["adm"] == 1)
 {
     $adm = "block";
@@ -9,6 +13,7 @@ else
 {
     $adm = "none";
 }
+
 
 ?>
 
@@ -31,7 +36,6 @@ else
         </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <link href="/css/style.css" rel="stylesheet" id="bootstrap-css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -39,10 +43,10 @@ else
         <link href="https:// maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
         <title>Página Inicial</title>
-        <link rel="stylesheet" type="text/css" href="páginaInicialCSS.css"> 
+        <link rel="stylesheet" type="text/css" href="CSS.css"> 
  
     </head>
-    <body id="body-pd">
+    <body>
         
         <!--<div id="mySidenav" class="sidenav">
             
@@ -57,8 +61,6 @@ else
             <a id="bb" class="bb" style="display: <?php echo $adm ?>;" href="dashboardAdm.php" target="_blank" onclick="window.open(this.href, this.target, 'width=754,height=479'); return false;">Admin Dashboard</a>
             </div>    
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-
-
             <div class="collapse navbar-collapse busca" id="busca">
                 <form class="form-inline my-8 my-lg-2" method="POST" action="formAt.php">
                     <input class="form-control mr-sm-4 busca" type="search" placeholder="Search" aria-label="Search" name="busc">
@@ -80,7 +82,7 @@ else
                         <a class="nav-link" href="paginaInicial.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="postagensZ.php?nome=<?php echo $_SESSION['nome']?>">Perfil</a>
+                         <a class="nav-link" href="postagensZ.php?nome=<?php echo $nomeArray[0]; ?>">Perfil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="attUser.php">Alterar Dados</a>
@@ -109,6 +111,7 @@ else
                 <label for="conten">Insira o conteúdo:</label>
                 <input type="textarea" rows="3" placeholder="conten" name="conten" rows="3s"></input>
                 <input type="submit"></input>
+
                
             </form>
             <button onclick="Appear(false)">Fechar</button>
@@ -136,6 +139,8 @@ else
 
             echo "  <div class='loroJose'>
                         <div class='loroJoJo'>
+                            <b><a href='postagensZ.php?nome=".$user['usuario']."'><p>".$user['autor']."</p></a></b>
+                            <hr style='width: 100%;'>
                             <p class='titulo'>".$user["titulo"]."</p>
                         </div>
                         <hr style='width=100%'>
@@ -177,7 +182,7 @@ else
             if($curtidaControle == 0)
             {
                 echo "<form method='POST' action='curtir.php' id='curtirForm'>";
-                echo "<p>".$totalCurtidas."</p>";
+                echo "<label for='curtir'>".$totalCurtidas."</label>";
                 echo "<button class='claquete' type='submit' name='curtir' id='curtirButton'>👍</button>";
                 echo "<input type='hidden' name='curtir' value='sim'></input>";
                 echo "<input type='hidden' name='idCurtida' value='".$user["id"]."'></input>";
@@ -187,7 +192,7 @@ else
             else
             {
                 echo "<form method='POST' action='curtir.php' id='curtirForm'>";
-                echo "<p>".$totalCurtidas."</p>";
+                echo "<label for='curtir'>".$totalCurtidas."</label>";
                 echo "<button type='submit' class='claqueteCurtido' name='curtir' id='curtirButton'>👍</button>";
                 echo "<input type='hidden' name='curtir' value='nao'></input>";
                 echo "<input type='hidden' name='idCurtida' value='".$user["id"]."'></input>";
@@ -199,7 +204,8 @@ else
 
 
             echo "<button class='button1' onclick='Disappear(".$i.")' style='display:block;'>Comentários</button>";
-            echo "<section id='".$i."' style='display: none; padding-top: 1px; margin: 20px auto; background: #ccc; box-shadow: 0 0 3px #000; overflow-y: scroll;' id='comentarios'>";
+            echo "<section id='".$i."' style='display: none; margin: 20px auto; background: #ccc; box-shadow: 0 0 3px #000; border:none;
+            background:none;' id='comentarios'>";
             
             //pegar o postID atual
             $postID = $user["id"];
@@ -274,20 +280,20 @@ else
                     if($curtidaControle == 0)
                     {
                         echo "<form method='POST' action='comCurtida.php' id='curtirComForm'>";
-                        echo "<p>".$totalComCurtidas."</p>";
+                        echo "<label for='curtir'>".$totalComCurtidas."</label>";
                         echo "<button class='claquete' type='submit' name='curtir' id='curtirComButton'>👍</button>";
                         echo "<input type='hidden' name='curtir' value='sim'></input>";
-                        echo "<input type='hidden' name='idCurtida' value='".$autores["autor"]."'></input>";
+                        echo "<input type='hidden' name='idCurtida' value='".$ids["0"]."'></input>";
                         echo "<input type='submit' style='display:none;'></input>";
                         echo "</form>";
                     }
                     else
                     {
                         echo "<form method='POST' action='comCurtida.php' id='curtirComForm'>";
-                        echo "<p>".$totalCurtidas."</p>";
+                        echo "<label for='curtir'>".$totalComCurtidas."</label>";
                         echo "<button type='submit' class='claqueteCurtido' name='curtir' id='curtirComButton'>👍</button>";
                         echo "<input type='hidden' name='curtir' value='nao'></input>";
-                        echo "<input type='hidden' name='idCurtida' value='".$autores["autor"]."'></input>";
+                        echo "<input type='hidden' name='idCurtida' value='".$ids["0"]."'></input>";
                         echo "<input type='submit' style='display:none;'></input>";
                         echo "</form>";
                     }
@@ -431,4 +437,4 @@ else
     {
         x.classList.toggle("claqueteCurtido");
     }
-</script>
+</script>   
